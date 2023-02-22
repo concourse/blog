@@ -6,7 +6,7 @@ tags:
 - product-update
 ---
 
-<figure class="kg-card kg-image-card"><img src="assets/images/downloaded_images/Concourse-Update--April-23-27-/1-1T4dM1zWpCx5NvHFnhK2Lw.jpeg" class="kg-image" alt loading="lazy"></figure>
+<figure class="kg-card kg-image-card"><img src="/assets/images/downloaded_images/Concourse-Update--April-23-27-/1-1T4dM1zWpCx5NvHFnhK2Lw.jpeg" class="kg-image" alt loading="lazy"></figure>
 
 Well, that was fun! [Topher Bullock](https://medium.com/u/58876cdc2180) absolutely _killed it_ last week on the CF Summit 2018 main stage with his demo of the experimental Concourse ❤ ️K8s runtime project. We also had a great time talking to companies who were using Concourse to continuously do things in the cloud. One of my favorite talks was from Jason Immerman and Derek Van Assche from Zipcar ([Concourse All the Things, All the Time](https://cfna18.sched.com/event/DdZz/concourse-all-of-the-things-at-all-times-jason-immerman-zipcar-derek-van-assche-hs2-solutions?iframe=no&w=&sidebar=yes&bg=no)); really inspirational stuff!
 

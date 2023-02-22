@@ -6,7 +6,7 @@ tags:
 - product-update
 ---
 
-<figure class="kg-card kg-image-card"><img src="assets/images/downloaded_images/The-Concourse-Crew--2017-/1-Q5Wx-Lltp5MDzh1rE2Yw0g.png" class="kg-image" alt loading="lazy"></figure>
+<figure class="kg-card kg-image-card"><img src="/assets/images/downloaded_images/The-Concourse-Crew--2017-/1-Q5Wx-Lltp5MDzh1rE2Yw0g.png" class="kg-image" alt loading="lazy"></figure>
 
 In 2014 the Concourse CI project started with just two engineers; Alex Suraci and Chris Brown. At the time, both Alex and Chris were working on the [Pivotal](https://medium.com/u/44756b810893) Cloud Foundry team. Over time, they became increasingly frustrated by existing CI/CD solutions. In response, Alex and Chris worked on designing a new CI/CD system in their spare time; imagining a new type of CI/CD system that would treat pipelines as first class citizens. After building some early prototypes and seeing early success internally within Pivotal, Concourse as released as an open source project with sponsorship from Pivotal.
 

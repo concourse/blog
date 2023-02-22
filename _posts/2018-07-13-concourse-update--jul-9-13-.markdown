@@ -6,7 +6,7 @@ tags:
 - product-update
 ---
 
-<figure class="kg-card kg-image-card kg-card-hascaption"><img src="assets/images/downloaded_images/Concourse-Update--Jul-9-13-/1-AuH8VYkniNetbpZtRBjTuA.png" class="kg-image" alt loading="lazy"><figcaption>DARK</figcaption></figure>
+<figure class="kg-card kg-image-card kg-card-hascaption"><img src="/assets/images/downloaded_images/Concourse-Update--Jul-9-13-/1-AuH8VYkniNetbpZtRBjTuA.png" class="kg-image" alt loading="lazy"><figcaption>DARK</figcaption></figure>
 
 We’re going dark themed for Concourse 4.0.0! In addition to the users work, we’re promoting the Dashboard to the / level to take over the home page. You’ll also notice that we added pipeline play/pause capabilities to the dashboard, NEAT!
 

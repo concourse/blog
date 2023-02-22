@@ -98,7 +98,7 @@ Now we have a [chicken or the egg](https://en.wikipedia.org/wiki/Chicken_or_the_
 
 Once the job is done running you should see two pipelines, `reconfigure-pipelines` and `hello-world`.
 
-<figure class="kg-card kg-image-card kg-card-hascaption"><img src="/assets/images/2020/08/hello-world.png" class="kg-image" alt="UI showing two pipelines" loading="lazy" width="1196" height="584" srcset="assets/images/size/w600/2020/08/hello-world.png 600w,assets/images/size/w1000/2020/08/hello-world.png 1000w,assets/images/2020/08/hello-world.png 1196w" sizes="(min-width: 720px) 720px"><figcaption>dashboard showing two pipelines</figcaption></figure>
+<figure class="kg-card kg-image-card kg-card-hascaption"><img src="/assets/images/2020/08/hello-world.png" class="kg-image" alt="UI showing two pipelines" loading="lazy"    sizes="(min-width: 720px) 720px"><figcaption>dashboard showing two pipelines</figcaption></figure>
 
 Now any changes you make to the `hello-world` pipeline will be updated automatically in Concourse once it picks up the commit with your changes.
 
@@ -150,7 +150,7 @@ Lets set the parent pipeline one more time with `fly` and then we'll make commit
 
 The parent pipeline should now look like this. Now the pipeline will first update itself and then update any existing child pipelines.
 
-<figure class="kg-card kg-image-card kg-card-hascaption"><img src="assets/images/2020/08/set-self.png" class="kg-image" alt="parent pipeline with config-self job" loading="lazy" width="2000" height="125" srcset="assets/images/size/w600/2020/08/set-self.png 600w,assets/images/size/w1000/2020/08/set-self.png 1000w,assets/images/size/w1600/2020/08/set-self.png 1600w,assets/images/size/w2400/2020/08/set-self.png 2400w" sizes="(min-width: 720px) 720px"><figcaption>parent pipeline with config-self job</figcaption></figure>
+<figure class="kg-card kg-image-card kg-card-hascaption"><img src="/assets/images/2020/08/set-self.png" class="kg-image" alt="parent pipeline with config-self job" loading="lazy"    sizes="(min-width: 720px) 720px"><figcaption>parent pipeline with config-self job</figcaption></figure>
 
 Let's commit our changes, which will be a no-op since we've already updated the pipeline with the latest changes.
 
@@ -194,7 +194,7 @@ Commit and push the changes to github.
 
 Once Concourse picks up the commit (may take up to a minute by default) you should see three pipelines on the dashboard. Now you never need to use `fly` to set pipelines!
 
-<figure class="kg-card kg-image-card kg-card-hascaption"><img src="assets/images/2020/08/three-pipelines.png" class="kg-image" alt="parent and child pipelines" loading="lazy" width="1780" height="580" srcset="assets/images/size/w600/2020/08/three-pipelines.png 600w,assets/images/size/w1000/2020/08/three-pipelines.png 1000w,assets/images/size/w1600/2020/08/three-pipelines.png 1600w,assets/images/2020/08/three-pipelines.png 1780w" sizes="(min-width: 720px) 720px"><figcaption>parent and child pipelines</figcaption></figure>
+<figure class="kg-card kg-image-card kg-card-hascaption"><img src="/assets/images/2020/08/three-pipelines.png" class="kg-image" alt="parent and child pipelines" loading="lazy"    sizes="(min-width: 720px) 720px"><figcaption>parent and child pipelines</figcaption></figure>
 ## Detour: A Future Alternative of Setting Pipelines
 
 In the future there will be a different solution to setting parent pipelines: no more parent pipelines! How will Concourse eliminate the current need to start with a parent pipeline in order to set child pipelines? The answer is [RFC 32: Projects](https://github.com/concourse/rfcs/pull/32/).

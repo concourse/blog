@@ -14,7 +14,7 @@ Before you say anything, I totally remembered to renew the domain. It was due to
 
 As far as I can tell, our registrar just didn’t do the one thing it’s supposed to do: renew the damned domain. They took the money, bumped the expiry date on the website, and…apparently stopped there. They had literally one job and they didn’t do it.
 
-<!--kg-card-begin: html--><iframe src="https://www.youtube.com/embed/4T2GmGSNvaM?start=39" width="700" height="393" frameborder="0" scrolling="no"></iframe><!--kg-card-end: html-->
+<!--kg-card-begin: html--><iframe src="https://www.youtube.com/embed/4T2GmGSNvaM?start=39"   frameborder="0" scrolling="no"></iframe><!--kg-card-end: html-->
 
 So some Joe Schmoe out of Macedonia went ahead and registered it somewhere else, presumeably to act as part of some spam network (the only thing set up were MX records). We contacted the new registrar’s abuse email and they basically told us that the domain was registered normally, not transferred, and must have been available. And that there is nothing they can do.
 

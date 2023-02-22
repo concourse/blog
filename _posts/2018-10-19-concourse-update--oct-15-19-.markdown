@@ -6,7 +6,7 @@ tags:
 - product-update
 ---
 
-<figure class="kg-card kg-image-card kg-card-hascaption"><img src="assets/images/downloaded_images/Concourse-Update--Oct-15-19-/1-Y05yilBhjLQKwCftw39ZVw.jpeg" class="kg-image" alt loading="lazy"><figcaption>Torontonians typically overreact when they get their first snowfall of the year. Its just a bit of frost ya’ll</figcaption></figure>
+<figure class="kg-card kg-image-card kg-card-hascaption"><img src="/assets/images/downloaded_images/Concourse-Update--Oct-15-19-/1-Y05yilBhjLQKwCftw39ZVw.jpeg" class="kg-image" alt loading="lazy"><figcaption>Torontonians typically overreact when they get their first snowfall of the year. Its just a bit of frost ya’ll</figcaption></figure>
 
 We finished our first implementation of Role Based Access Control (RBAC) this week! You can look forward to this change in our next release of Concourse.
 
@@ -27,7 +27,7 @@ On to the update:
 
 **API**
 
-<figure class="kg-card kg-image-card"><img src="assets/images/downloaded_images/Concourse-Update--Oct-15-19-/1-I0qcGZPL9DOugmQ6eC_xVQ.png" class="kg-image" alt loading="lazy"></figure>
+<figure class="kg-card kg-image-card"><img src="/assets/images/downloaded_images/Concourse-Update--Oct-15-19-/1-I0qcGZPL9DOugmQ6eC_xVQ.png" class="kg-image" alt loading="lazy"></figure>
 - We finished RBAC!
 - Fixed an issue where Users who are not assigned to teams aren’t able to login [#2670](https://github.com/concourse/concourse/issues/2670)
 

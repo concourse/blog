@@ -6,7 +6,7 @@ tags:
 - product-update
 ---
 
-<figure class="kg-card kg-image-card kg-card-hascaption"><img src="assets/images/downloaded_images/Concourse-Update--Jan-7-11-/1-xc1d4AtxzZanyNVDiEPrvg.jpeg" class="kg-image" alt loading="lazy"><figcaption>MomentsForZen</figcaption></figure>
+<figure class="kg-card kg-image-card kg-card-hascaption"><img src="/assets/images/downloaded_images/Concourse-Update--Jan-7-11-/1-xc1d4AtxzZanyNVDiEPrvg.jpeg" class="kg-image" alt loading="lazy"><figcaption>MomentsForZen</figcaption></figure>
 
 …and we’re back! The team’s been pretty quiet over the past few weeks due to vacations and holidays. This was our first week back at full strength so we’ve got some interesting updates for ya’ll
 

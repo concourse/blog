@@ -6,7 +6,7 @@ tags:
 - product-update
 ---
 
-<figure class="kg-card kg-image-card kg-card-hascaption"><img src="assets/images/downloaded_images/Concourse-at-SpringOne-2017/1-JzJoM_Man8MYThde2qy7Zg.png" class="kg-image" alt loading="lazy"><figcaption>by Pivotal</figcaption></figure>
+<figure class="kg-card kg-image-card kg-card-hascaption"><img src="/assets/images/downloaded_images/Concourse-at-SpringOne-2017/1-JzJoM_Man8MYThde2qy7Zg.png" class="kg-image" alt loading="lazy"><figcaption>by Pivotal</figcaption></figure>
 
 [Topher Bullock](https://medium.com/u/58876cdc2180), [Lindsay Auchinachie](https://medium.com/u/84b937bda3b6), [Alex Suraci](https://medium.com/u/263a63b2f209) and I will be travelling to San Francisco next week to attend the [SpringOne Platform 2017](https://springoneplatform.io/) Conference. Not only are there a lot of exciting Spring talks this year, but there will be a lot of CI/CD talks from some amazing speakers.
 

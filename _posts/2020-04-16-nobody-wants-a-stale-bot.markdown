@@ -6,7 +6,7 @@ date: '2020-04-16 19:27:07'
 
 Hasta la vista, stale bot.
 
-<figure class="kg-card kg-embed-card"><iframe width="480" height="270" src="https://www.youtube.com/embed/0Kug8mJ8WiM?start=110&amp;feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></figure>
+<figure class="kg-card kg-embed-card"><iframe   src="https://www.youtube.com/embed/0Kug8mJ8WiM?start=110&amp;feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></figure>
 ## tl;dr:
 
 - We've been granted access to GitHub's beta Discussions feature! 🎉

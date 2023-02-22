@@ -6,7 +6,7 @@ tags:
 - product-update
 ---
 
-<figure class="kg-card kg-image-card kg-card-hascaption"><img src="assets/images/downloaded_images/Concourse-Update--Oct-29--Nov-2-/1-7C_nS91OafAnN5DWBtN4SA.jpeg" class="kg-image" alt loading="lazy"><figcaption>The Concourse team’s big yoga ball has returned to its rightful home</figcaption></figure>
+<figure class="kg-card kg-image-card kg-card-hascaption"><img src="/assets/images/downloaded_images/Concourse-Update--Oct-29--Nov-2-/1-7C_nS91OafAnN5DWBtN4SA.jpeg" class="kg-image" alt loading="lazy"><figcaption>The Concourse team’s big yoga ball has returned to its rightful home</figcaption></figure>
 
 As a part of our refactor of the prod pipeline, [Alex Suraci](https://medium.com/u/263a63b2f209) cleaned up and refactored parts of the TSA to better support draining and rebalancing [#2748](https://github.com/concourse/concourse/pull/2748). The numbers are looking really good!
 

@@ -6,7 +6,7 @@ tags:
 - product-update
 ---
 
-<figure class="kg-card kg-image-card"><img src="assets/images/downloaded_images/Concourse-Update--June-4-8-/1-XZfbfSSmYOJi2Ujc1uDP7Q.png" class="kg-image" alt loading="lazy"></figure>
+<figure class="kg-card kg-image-card"><img src="/assets/images/downloaded_images/Concourse-Update--June-4-8-/1-XZfbfSSmYOJi2Ujc1uDP7Q.png" class="kg-image" alt loading="lazy"></figure>
 
 Big release this week! After lots internal load testing on Wings we finally felt comfortable releasing Concourse 3.14.0. In addition to the new [Distributed Garbage Collection&nbsp;](https://medium.com/concourse-ci/distributed-garbage-collection-ae3867ab5438), breadcrumbs, responsive groups, and [Windows worker](https://github.com/concourse/concourse-bosh-deployment/blob/master/cluster/operations/windows-worker.yml), we have 14 new features a whole bunch of bug fixes. But wait! Don’t download that one; get [Concourse v3.14.1 i](https://concourse-ci.org/download.html#v3141)nstead.
 
@@ -23,7 +23,7 @@ And now, on to the update; starting with a note on [RFCs](https://github.com/con
 
 - We’re seriously, absolutely, most definitely tacking the slow performance on the build page [#1543](https://github.com/concourse/concourse/issues/1543#issuecomment-394449918)
 - Spatial Resource testing continues! Here’s a peek at our most recent iteration:
-<figure class="kg-card kg-image-card"><img src="assets/images/downloaded_images/Concourse-Update--June-4-8-/1-C8RdmEmjBxrG5pzamGDMSg.png" class="kg-image" alt loading="lazy"></figure>
+<figure class="kg-card kg-image-card"><img src="/assets/images/downloaded_images/Concourse-Update--June-4-8-/1-C8RdmEmjBxrG5pzamGDMSg.png" class="kg-image" alt loading="lazy"></figure>
 
 **Core**
 

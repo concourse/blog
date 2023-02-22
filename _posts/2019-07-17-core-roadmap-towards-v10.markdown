@@ -56,7 +56,7 @@ I had no reservations baking 'spaces' in to every layer of the stack - it would 
 
 But as time went on it became terrifying. It was a double-or-nothing bet. Either 'spaces' made sense everywhere, or 'spaces' didn't make sense at all. I tried to carve out work that could be done before fully committing to spaces, but it didn't make the monolithic feature any less monolithic.
 
-<figure class="kg-card kg-image-card kg-card-hascaption"><img src="assets/images/2019/07/scaredy-cat-2.gif" class="kg-image" alt loading="lazy"><figcaption>me vs the space dragon</figcaption></figure>
+<figure class="kg-card kg-image-card kg-card-hascaption"><img src="/assets/images/2019/07/scaredy-cat-2.gif" class="kg-image" alt loading="lazy"><figcaption>me vs the space dragon</figcaption></figure>
 # Where are we now?
 
 First off, I want to give a quick update on a couple of big things that you can expect in v6.0:
@@ -207,7 +207,7 @@ _Archiving pipelines is a way to soft-delete a pipeline while still being able t
 
 Well, after that bombshell this one's pretty easy to explain. Let's take a look at our own Concourse team's pipelines:
 
-<figure class="kg-card kg-image-card"><img src="assets/images/2019/07/Screenshot-from-2019-07-16-11-49-33.png" class="kg-image" alt loading="lazy"></figure>
+<figure class="kg-card kg-image-card"><img src="/assets/images/2019/07/Screenshot-from-2019-07-16-11-49-33.png" class="kg-image" alt loading="lazy"></figure>
 
 Look at all that cruft! So many old, paused or bit-rotting pipelines which I really don't care about anymore but don't really have the heart to delete. That `old-concourse` pipeline served us well for years - it has sentimental value. In some cases you may also want to keep the history around for auditing purposes.
 
@@ -322,7 +322,7 @@ If so, you're probably aware of how ugly it can make your pipelines, both in YAM
 
 A simple pipeline quickly turns into a mess of boxes and lines:
 
-<figure class="kg-card kg-image-card"><img src="assets/images/2019/07/before-notifications-1.png" class="kg-image" alt loading="lazy"></figure><figure class="kg-card kg-image-card kg-card-hascaption"><img src="assets/images/2019/07/after-notifications.png" class="kg-image" alt loading="lazy"><figcaption>a simple pipeline before and after notifications were added</figcaption></figure>
+<figure class="kg-card kg-image-card"><img src="/assets/images/2019/07/before-notifications-1.png" class="kg-image" alt loading="lazy"></figure><figure class="kg-card kg-image-card kg-card-hascaption"><img src="/assets/images/2019/07/after-notifications.png" class="kg-image" alt loading="lazy"><figcaption>a simple pipeline before and after notifications were added</figcaption></figure>
 
 Not only is it a lot of manual work to copy-paste those `on_success` and `on_failure` hooks, when you finally configure it it really ruins the signal-to-noise ratio of the pipeline UI.
 

@@ -6,7 +6,7 @@ tags:
 - product-update
 ---
 
-<figure class="kg-card kg-image-card kg-card-hascaption"><img src="assets/images/downloaded_images/Concourse-Update--Oct-22-26-/1-MnGUtwM_fDCZBeKhYrlwqA.jpeg" class="kg-image" alt loading="lazy"><figcaption>MGI Construction Corp</figcaption></figure>
+<figure class="kg-card kg-image-card kg-card-hascaption"><img src="/assets/images/downloaded_images/Concourse-Update--Oct-22-26-/1-MnGUtwM_fDCZBeKhYrlwqA.jpeg" class="kg-image" alt loading="lazy"><figcaption>MGI Construction Corp</figcaption></figure>
 
 This week the team got together to discuss the initial groundwork and investigations required to publish and maintain a supported API. If you’ve built any tools against our API and have feedback for us, please let us know by commenting on the original [issue #1122](https://github.com/concourse/concourse/issues/1122).
 
@@ -29,7 +29,7 @@ On to the update:
 
 **Operations**
 
-<figure class="kg-card kg-image-card"><img src="assets/images/downloaded_images/Concourse-Update--Oct-22-26-/1-yxHddOEl3sz5TqCy7M0q_A.png" class="kg-image" alt loading="lazy"></figure>
+<figure class="kg-card kg-image-card"><img src="/assets/images/downloaded_images/Concourse-Update--Oct-22-26-/1-yxHddOEl3sz5TqCy7M0q_A.png" class="kg-image" alt loading="lazy"></figure>
 
 We’ve added descriptions to our metrics graphs! You can check out the descriptions on our prod metrics here: [https://metrics.concourse-ci.org/dashboard/db/concourse?refresh=1m&orgId=1](https://metrics.concourse-ci.org/dashboard/db/concourse?refresh=1m&orgId=1)
 

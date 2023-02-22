@@ -6,7 +6,7 @@ tags:
 - product-update
 ---
 
-<figure class="kg-card kg-image-card kg-card-hascaption"><img src="assets/images/downloaded_images/Concourse-2018-Year-in-Review/1-pzx9yhOYi-XyEFUgqnxBfw.jpeg" class="kg-image" alt loading="lazy"><figcaption>Bernal Saborio</figcaption></figure>
+<figure class="kg-card kg-image-card kg-card-hascaption"><img src="/assets/images/downloaded_images/Concourse-2018-Year-in-Review/1-pzx9yhOYi-XyEFUgqnxBfw.jpeg" class="kg-image" alt loading="lazy"><figcaption>Bernal Saborio</figcaption></figure>
 
 2018 has been an action-packed year for us. We saw a major release ([Concourse 4.0.0](https://concourse-ci.org/download.html#v400)) with a lot of new features: [new auth connectors and users](https://medium.com/concourse-ci/oh-auth-f4fe68438171), [dashboard](https://medium.com/concourse-ci/designing-a-dashboard-for-concourse-fe2e03248751), [distributed GC](https://medium.com/concourse-ci/distributed-garbage-collection-ae3867ab5438) and other runtime improvements. At the same time our team grew from 3 engineering pairs at the start of 2018 to 8 engineering pairs and an additional PM (👋 [Scott Foerster](https://medium.com/u/86d0fa097bb9)) working on Concourse OSS and supporting Concourse for PCF.
 

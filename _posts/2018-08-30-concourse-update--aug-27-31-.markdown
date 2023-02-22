@@ -6,7 +6,7 @@ tags:
 - product-update
 ---
 
-<figure class="kg-card kg-image-card kg-card-hascaption"><img src="assets/images/downloaded_images/Concourse-Update--Aug-27-31-/0-39sBwa4rlBwJYlH4.jpg" class="kg-image" alt loading="lazy"><figcaption>(Photo courtesy of the CNE)</figcaption></figure>
+<figure class="kg-card kg-image-card kg-card-hascaption"><img src="/assets/images/downloaded_images/Concourse-Update--Aug-27-31-/0-39sBwa4rlBwJYlH4.jpg" class="kg-image" alt loading="lazy"><figcaption>(Photo courtesy of the CNE)</figcaption></figure>
 
 Apologies for the break from the usual update schedule; I wanted to get one last update out before I take some personal time, starting Fri. Aug 31 and coming back Sept 10. In my absence [Scott Foerster](https://medium.com/u/86d0fa097bb9) and [Alex Suraci](https://medium.com/u/263a63b2f209) will be writing the product update next week. The Concourse team will also be taking Monday, Sept 3rd off in observance of Labour day as well.
 

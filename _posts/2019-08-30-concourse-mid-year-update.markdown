@@ -10,11 +10,11 @@ Phew, it's been a while. I got lots of info to cover so let's just get right int
 
 As some of you may know, the Concourse team switched over to a PR-based workflow at the beginning of the year. This change is in line with our objectives of being open and transparent with our community of contributors. Plus, its just good thing to do because that's what most OSS projects do. Since then we've noticed a noticeable uptick in PRs opened by non-Concourse core contributors across our repos:
 
-<figure class="kg-card kg-image-card"><img src="assets/images/2019/08/Screen-Shot-2019-08-30-at-10.12.17-AM-2.png" class="kg-image" alt loading="lazy"></figure>
+<figure class="kg-card kg-image-card"><img src="/assets/images/2019/08/Screen-Shot-2019-08-30-at-10.12.17-AM-2.png" class="kg-image" alt loading="lazy"></figure>
 
 And while our peak period seemed to be concentrated at the beginning of the year, we're still seeing steady contributions through the summer months
 
-<figure class="kg-card kg-image-card"><img src="assets/images/2019/08/Screen-Shot-2019-08-30-at-10.13.09-AM.png" class="kg-image" alt loading="lazy"></figure>
+<figure class="kg-card kg-image-card"><img src="/assets/images/2019/08/Screen-Shot-2019-08-30-at-10.13.09-AM.png" class="kg-image" alt loading="lazy"></figure>
 
 The Concourse project also hit another big milestone: we now have over **4000 Github stars**! As of today we're sitting at 4213 stars, a 52% increase in popularity from this time last year.
 
@@ -23,7 +23,7 @@ The Concourse project also hit another big milestone: we now have over **4000 Gi
 In case you missed it, Alex wrote out a great blog post that outlines our long term vision for Concourse. It's got a breakdown of some exciting new features, from references to Spaces, the new Algorithm, Concourse Projects, etc. You can read more about it here [https://blog.concourse-ci.org/core-roadmap-towards-v10/]( __GHOST_URL__ /core-roadmap-towards-v10/)
 
 ## Concourse Project Planning
-<figure class="kg-card kg-image-card"><img src="assets/images/2019/08/Screen-Shot-2019-08-30-at-10.27.27-AM.png" class="kg-image" alt loading="lazy"></figure>
+<figure class="kg-card kg-image-card"><img src="/assets/images/2019/08/Screen-Shot-2019-08-30-at-10.27.27-AM.png" class="kg-image" alt loading="lazy"></figure>
 
 There's been some big changes to how we organize and visualize each track of work now. If you take a peek in the project board [https://project.concourse-ci.org](https://project.concourse-ci.org/) you'll see now that each of our tracks are clearly labeled as swimlanes, with each prioritized Epic as cards under each swimlane. We hope you'll find this new format easier to consume
 

@@ -4,7 +4,7 @@ title: Concourse RBAC Preview
 date: '2018-11-23 00:00:00'
 ---
 
-<figure class="kg-card kg-image-card kg-card-hascaption"><img src="assets/images/downloaded_images/Concourse-RBAC-Preview/0-oy1M_w9ksoAje2LR.jpg" class="kg-image" alt loading="lazy"><figcaption>https://commons.wikimedia.org/w/index.php?curid=17686969</figcaption></figure>
+<figure class="kg-card kg-image-card kg-card-hascaption"><img src="/assets/images/downloaded_images/Concourse-RBAC-Preview/0-oy1M_w9ksoAje2LR.jpg" class="kg-image" alt loading="lazy"><figcaption>https://commons.wikimedia.org/w/index.php?curid=17686969</figcaption></figure>
 
 One of the big themes for Concourse in 2018 has been [Users](https://concourse-ci.org/download.html#v400), [multiple auth connectors](https://concourse-ci.org/install.html#auth-config), and role-based access control (aka [RBAC](https://github.com/pivotal-jwinters/rfcs/blob/proposal/rbac/03-rbac/proposal.md)). With RBAC in the final phases of development, I wanted to give you a preview of some of the functionality that you can expect in our upcoming release; Concourse 5.0
 

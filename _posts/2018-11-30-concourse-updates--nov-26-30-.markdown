@@ -6,7 +6,7 @@ tags:
 - product-update
 ---
 
-<figure class="kg-card kg-image-card kg-card-hascaption"><img src="assets/images/downloaded_images/Concourse-Updates--Nov-26-30-/1-BFgbR-J5U389pc0g9nDi_Q.jpeg" class="kg-image" alt loading="lazy"><figcaption>)</figcaption></figure>
+<figure class="kg-card kg-image-card kg-card-hascaption"><img src="/assets/images/downloaded_images/Concourse-Updates--Nov-26-30-/1-BFgbR-J5U389pc0g9nDi_Q.jpeg" class="kg-image" alt loading="lazy"><figcaption>)</figcaption></figure>
 
 As I mentioned last week I’ve been doing story acceptance in our dev environments for the upcoming [RBAC](https://medium.com/concourse-ci/concourse-rbac-preview-8e07616ddc47) feature. The team’s been working through some of the new issues that come out of that to give some final polish on to the release.
 

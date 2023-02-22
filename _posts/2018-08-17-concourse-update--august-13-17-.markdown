@@ -6,7 +6,7 @@ tags:
 - product-update
 ---
 
-<figure class="kg-card kg-image-card kg-card-hascaption"><img src="assets/images/downloaded_images/Concourse-Update--August-13-17-/1-tElpiP87T2Ee3rXKJP88QQ.gif" class="kg-image" alt loading="lazy"><figcaption>Combining repos for great justice</figcaption></figure>
+<figure class="kg-card kg-image-card kg-card-hascaption"><img src="/assets/images/downloaded_images/Concourse-Update--August-13-17-/1-tElpiP87T2Ee3rXKJP88QQ.gif" class="kg-image" alt loading="lazy"><figcaption>Combining repos for great justice</figcaption></figure>
 
 Going to switch things up this week and start with some interesting community news:
 

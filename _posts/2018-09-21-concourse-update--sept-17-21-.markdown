@@ -6,7 +6,7 @@ tags:
 - product-update
 ---
 
-<figure class="kg-card kg-image-card kg-card-hascaption"><img src="assets/images/downloaded_images/Concourse-Update--Sept-17-21-/1-7EmboSXNrRcSwtYmV9WSLQ.jpeg" class="kg-image" alt loading="lazy"><figcaption>wiltshirespotter</figcaption></figure>
+<figure class="kg-card kg-image-card kg-card-hascaption"><img src="/assets/images/downloaded_images/Concourse-Update--Sept-17-21-/1-7EmboSXNrRcSwtYmV9WSLQ.jpeg" class="kg-image" alt loading="lazy"><figcaption>wiltshirespotter</figcaption></figure>
 
 [Concourse 4.2.0](https://concourse-ci.org/download.html#v420) and [Concourse 4.2.1](https://concourse-ci.org/download.html#v421) were released earlier this week. There’s a lot of great fixes and features in this new release, so please upgrade now!
 

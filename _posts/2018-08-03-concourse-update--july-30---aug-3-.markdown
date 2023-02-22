@@ -6,7 +6,7 @@ tags:
 - product-update
 ---
 
-<figure class="kg-card kg-image-card"><img src="assets/images/downloaded_images/Concourse-Update--July-30---Aug-3-/1--syJtPB3nj0x2z8AVEh7zA.png" class="kg-image" alt loading="lazy"></figure>
+<figure class="kg-card kg-image-card"><img src="/assets/images/downloaded_images/Concourse-Update--July-30---Aug-3-/1--syJtPB3nj0x2z8AVEh7zA.png" class="kg-image" alt loading="lazy"></figure>
 
 With the launch of Concourse 4.0.0, we’ve been monitoring our [typical communication channels](https://concourse-ci.org/community.html)carefully to watch out for any glaring new bugs. So far we seem to be safe from any crazy issues, but we have noticed that there has been some confusion in how to set the basic auth users in the new deployment method (see [#2421](https://github.com/concourse/concourse/issues/2421) for details). Thanks everyone for your patience and working through these issues with us!
 
