@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Suspicious Volume Usage on Workers | Concourse Blog</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="Suspicious Volume Usage on Workers" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="As a Product Manger at Pivotal I’m often called on to help with our customer’s Concourse-related issues. I recently spent some time hunting down an issue around suspiciously high volume usage on Concourse workers. It was an interesting problem that I wanted to share with the broader Concourse community." />
+<meta property="og:description" content="As a Product Manger at Pivotal I’m often called on to help with our customer’s Concourse-related issues. I recently spent some time hunting down an issue around suspiciously high volume usage on Concourse workers. It was an interesting problem that I wanted to share with the broader Concourse community." />
+<link rel="canonical" href="http://localhost:4000/2018/08/10/suspicious-volume-usage-on-workers.html" />
+<meta property="og:url" content="http://localhost:4000/2018/08/10/suspicious-volume-usage-on-workers.html" />
+<meta property="og:site_name" content="Concourse Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-08-10T00:00:00-04:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Suspicious Volume Usage on Workers" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2018-08-10T00:00:00-04:00","datePublished":"2018-08-10T00:00:00-04:00","description":"As a Product Manger at Pivotal I’m often called on to help with our customer’s Concourse-related issues. I recently spent some time hunting down an issue around suspiciously high volume usage on Concourse workers. It was an interesting problem that I wanted to share with the broader Concourse community.","headline":"Suspicious Volume Usage on Workers","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2018/08/10/suspicious-volume-usage-on-workers.html"},"url":"http://localhost:4000/2018/08/10/suspicious-volume-usage-on-workers.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Concourse Blog" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Concourse Blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Suspicious Volume Usage on Workers</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2018-08-10T00:00:00-04:00" itemprop="datePublished">Aug 10, 2018
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>As a Product Manger at Pivotal I’m often called on to help with our customer’s Concourse-related issues. I recently spent some time hunting down an issue around suspiciously high volume usage on Concourse workers. It was an interesting problem that I wanted to share with the broader Concourse community.</p>
+
+<h3 id="platform-management-pipelines">Platform Management Pipelines</h3>
+
+<p>One of the primary use case for Concourse within the Pivotal Cloud Foundry (<a href="https://www.google.com/search?q=pivotal+cloud+foundry&amp;oq=pivotal+cloud+fou&amp;aqs=chrome.0.0j69i60l2j69i65l2j69i60.3685j0j7&amp;sourceid=chrome&amp;ie=UTF-8">PCF</a>) ecosystem is to automate the toil of manual maintenance against the platform; specifically <a href="https://pivotal.io/platform/pivotal-application-service">PAS</a> and <a href="https://pivotal.io/platform/pivotal-container-service">PKS</a>. For the purposes of this issue, the specific details of the pipeline doesn’t matter but an understanding the general flow of the pipeline will help frame problem:</p>
+
+<figure class="kg-card kg-image-card kg-card-hascaption"><img src=" __GHOST_URL__ /content/images/downloaded_images/Suspicious-Volume-Usage-on-Workers/1-afxjY-fNHqW6BPik1xdGVQ.png" class="kg-image" alt="" loading="lazy" /><figcaption>A simplified version of a pipeline used to pull updates from the Pivotal Network and apply the changes onto Ops Manager</figcaption></figure>
+
+<p>In these pipelines the pivnet-resource is responsible for monitoring new product versions on <a href="https://network.pivotal.io/">network.pivotal.io</a> (aka PivNet). When a new product version is released on PivNet, the pivnet-resource picks it up and initiates a download. These files are relatively large, from 500mb to over 1 GB</p>
+
+<p><strong>Recreate</strong> _ <strong>all</strong> _ <strong>the workers?</strong></p>
+
+<p>Over the course of the past year or so we would get sporadic reports of customers who used Concourse for PCF management running out of space on their workers. The typical manifestation of it comes from a failed to stream in volume error. It would appear that workers were running out of space; but it wasn’t clear why. To mitigate the issue Concourse operators would be forced to periodically re-create their workers to get a “clean slate”.</p>
+
+<p><strong>But why?</strong></p>
+
+<p>Having to periodically recreate workers is a <em>huge</em> pain and it doesn’t give operators a lot of confidence in Concourse itself. The team decided to take a look into the root cause of this issue. We wanted to understand whether this was a bug in the system and whether we could do something to address it.</p>
+
+<p>After some poking and prodding, I think we figured out what was happening in this specific scenario. Using the same simplified pipeline above, consider the following scenario:</p>
+
+<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/downloaded_images/Suspicious-Volume-Usage-on-Workers/1-m-1ouUbMQEVv9gPJ3wggug.png" class="kg-image" alt="" loading="lazy" /></figure>
+<ul>
+  <li>At t=0 the pipeline is configured and idling; monitoring the external system for a new version.</li>
+  <li>At t=1 a new version of the “Metrics” product is released on PivNet, picked up by Concourse, downloaded and begins to flow through your pipeline</li>
+  <li>At t=2 the Upload to OM (OM == Ops Manager) job kicks off and does its thing</li>
+  <li>At t=3 the artifact is used for some long running process like Apply Changes on OM. Concourse will hold on to that downloaded data since its still running</li>
+</ul>
+
+<p>But wait, what’s that new Metrics1.0 box in deep blue at t=3? Well, its not uncommon for the metadata of a release to be modified just-after release. This could be a tweak to metadata (e.g. support dates, dependencies, supported stemcells, etc.), which causes PivNet to report a new version. Semantically, its still reported as Metrics v1.0 but Concourse will pick it up nonetheless. Because of this change we have effectively doubled the amount of storage used!</p>
+
+<p><strong>I think we learned a valuable lesson today…</strong></p>
+
+<p>The problem I described was a specific to the usage of the pivnet-resource, but there are a lot of common takeaways:</p>
+
+<ul>
+  <li>Spend some time to understand your resources! The specific implementation of check can drastically affect your pipeline</li>
+  <li>Be wary of using large files with long running jobs. I could see how someone could easily re-create a similar scenario with other resources</li>
+  <li>Consider separating out the act of downloading an artifact from the act of operating on the artifact. For example, I found that other teams in Pivotal worked around this by landing their PivNet artifacts in an s3 bucket and picking it up in the next job via the s3-resource</li>
+  <li>Set up some monitoring! You can catch errors and creeping disk use this in <a href="https://metrics.concourse-ci.org/dashboard/db/concourse?refresh=1m&amp;orgId=1">metrics dashboards</a></li>
+</ul>
+
+<p><strong>No seriously, why does this happen?!</strong></p>
+
+<p>In this blog post I covered a lot of the symptoms of the problem and touched on some abstract reasoning on why this happens. In the next blog post we (and by “we” I mostly mean <a href="https://medium.com/u/58876cdc2180">Topher Bullock</a>) will cover the specific technical details of Resource Caching on Concourse so you can have a better understanding of exactly <em>why</em> this happens.</p>
+
+
+  </div><a class="u-url" href="/2018/08/10/suspicious-volume-usage-on-workers.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Concourse Blog</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Concourse Blog</li><li><a class="u-email" href="mailto:noreply@blog.concourse-ci.org">noreply@blog.concourse-ci.org</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/concourse"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">concourse</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Come Fly The Friendly CI</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Concourse Update June 7 | Concourse Blog</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="Concourse Update June 7" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="…and we’re back! Apologies for the lack of updates lately. I’ve just come back from some time off and work travel has taken up a lot of my time. I’m back in Toronto now so let’s get back into it." />
+<meta property="og:description" content="…and we’re back! Apologies for the lack of updates lately. I’ve just come back from some time off and work travel has taken up a lot of my time. I’m back in Toronto now so let’s get back into it." />
+<link rel="canonical" href="http://localhost:4000/2019/06/07/concourse-update-june-7.html" />
+<meta property="og:url" content="http://localhost:4000/2019/06/07/concourse-update-june-7.html" />
+<meta property="og:site_name" content="Concourse Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-06-07T00:00:00-04:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Concourse Update June 7" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2019-06-07T00:00:00-04:00","datePublished":"2019-06-07T00:00:00-04:00","description":"…and we’re back! Apologies for the lack of updates lately. I’ve just come back from some time off and work travel has taken up a lot of my time. I’m back in Toronto now so let’s get back into it.","headline":"Concourse Update June 7","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2019/06/07/concourse-update-june-7.html"},"url":"http://localhost:4000/2019/06/07/concourse-update-june-7.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Concourse Blog" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Concourse Blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Concourse Update June 7</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2019-06-07T00:00:00-04:00" itemprop="datePublished">Jun 7, 2019
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>…and we’re back! Apologies for the lack of updates lately. I’ve just come back from some time off and work travel has taken up a lot of my time. I’m back in Toronto now so let’s get back into it.</p>
+
+<h2 id="release-engineering--concourse-530">Release Engineering &amp; Concourse 5.3.0</h2>
+
+<p>In the past, we relied <em>a lot</em> on <a href="https://medium.com/u/263a63b2f209">Alex Suraci</a> to handle a lot of our release engineering work. Release Engineering is incredibly important and valuable work for the Concourse team, but it can also very time consuming. Thankfully, the UX track has volunteered some of their time to spin up our new <a href="https://github.com/orgs/concourse/projects/36">Release Engineering track</a> of work to help alleviate Alex from some of his responsibilities. This means a short-term slowdown in the throughput of the UX team, but we think its well worth the tradeoff.</p>
+
+<p>On that note, you can now follow along with our release plans for Concourse 5.3.0 by tracking our <a href="https://github.com/orgs/concourse/projects/36#card-22467664">project note</a>. Unfortunately, we were mostly blocked on some metrics instabilities in our <a href="https://ci.concourse-ci.org/">production instance</a> this week. Those issues have been mostly cleared up and we hope to be able to continue with our production and wings tests next</p>
+
+<h2 id="core-api">Core / API</h2>
+
+<p>The team’s been making a lot of progress on two key issues:</p>
+
+<ul>
+  <li><a href="https://github.com/concourse/concourse/issues/3602">The Algorithm™</a></li>
+  <li><a href="https://github.com/concourse/concourse/issues/3788">Resource check queue</a></li>
+</ul>
+
+<p>The team has been doing some preliminary performance tests with the new Algorithm and the results so far have been very promising. We’ll be reporting more details on the performance improvements in the coming weeks; so keep an eye out for that!</p>
+
+<h2 id="runtime">Runtime</h2>
+
+<p><a href="https://github.com/concourse/concourse/issues/3424">Ephemeral check containers</a> is back! We’ve deployed our changes as-is on our test environment and are monitoring it for lower container counts in our environments</p>
+
+<p><a href="https://github.com/concourse/concourse/issues/3992">Parallel Input Streaming</a> was picked up by Krishna today, its amazing and there’s totally lots of detail to be found on the linked issue.</p>
+
+<h2 id="k8s--concourse--koncourse">K8s + Concourse == Koncourse?</h2>
+
+<p>We have two RFCs in flight, please take some time to read through the changes:</p>
+
+<ul>
+  <li>Exploring <a href="https://github.com/concourse/architecture-rfcs/pull/1">Initial Run/Store interface</a>: In order to port Concourse on to non Garden/Baggageclaim runtimes (including Kubernetes!) we need to separate the two concepts of containers as the unit of execution and volumes as the unit of storage. We’re fleshing out the interface that these components can implement in this RFC.</li>
+  <li><a href="https://github.com/concourse/rfcs/pull/30">Extract Core Resource Types</a>: a proposal to not ship bundled base resource types with concourse. The change would require Concourse to pull the base resource types on-demand at runtime. This is required for moving establishing a more generic storage interface.</li>
+</ul>
+
+<p>You’ll also note that we’ve created a architecture-rfcs repo. This repository is reserved for internal RFCs that should not directly impact a Concourse user.</p>
+
+<h2 id="duty-free">Duty Free</h2>
+
+<p>The proposal for a Concourse “Duty Free” was first reported in <a href="https://github.com/concourse/concourse/issues/191">issue #191</a>; its the idea of creating a separate site to highlight community resources and other re-usable Concourse artifacts for our community. Today, advertise Concourse resources through the <a href="https://github.com/concourse/concourse/wiki/Resource-Types">Resources page in our wiki</a>, but a dedicated Concourse Duty Free site would have a lot more pizzaz.</p>
+
+<p>We’ve always wanted to build Duty Free but we were never been able to figure out how to slot it into our work schedule. Thankfully, the Pivotal team out in Dublin had some time and offered to help kick-start the project for us. We’re still in the very early stages of development and design, but you can follow along the project on their GitHub repo here: <a href="https://github.com/concourse/dutyfree">concourse/dutyfree</a></p>
+
+
+  </div><a class="u-url" href="/2019/06/07/concourse-update-june-7.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Concourse Blog</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Concourse Blog</li><li><a class="u-email" href="mailto:noreply@blog.concourse-ci.org">noreply@blog.concourse-ci.org</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/concourse"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">concourse</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Come Fly The Friendly CI</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

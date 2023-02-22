@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Concourse Update (Jul 16–20) | Concourse Blog</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="Concourse Update (Jul 16–20)" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Come Fly The Friendly CI" />
+<meta property="og:description" content="Come Fly The Friendly CI" />
+<link rel="canonical" href="http://localhost:4000/2018/07/20/concourse-update-jul-16-20.html" />
+<meta property="og:url" content="http://localhost:4000/2018/07/20/concourse-update-jul-16-20.html" />
+<meta property="og:site_name" content="Concourse Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-07-20T00:00:00-04:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Concourse Update (Jul 16–20)" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2018-07-20T00:00:00-04:00","datePublished":"2018-07-20T00:00:00-04:00","description":"Come Fly The Friendly CI","headline":"Concourse Update (Jul 16–20)","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2018/07/20/concourse-update-jul-16-20.html"},"url":"http://localhost:4000/2018/07/20/concourse-update-jul-16-20.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Concourse Blog" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Concourse Blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Concourse Update (Jul 16–20)</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2018-07-20T00:00:00-04:00" itemprop="datePublished">Jul 20, 2018
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/downloaded_images/Concourse-Update--Jul-16-20-/1-CIxNgJ_FKbnacEpUI588nw.jpeg" class="kg-image" alt="" loading="lazy" /></figure>
+
+<p>This week, the Concourse team went out to Portland to attend OSCON 2018. <a href="https://medium.com/u/58876cdc2180">Topher Bullock</a> gave a great intro to Concourse in the Open Source track. We even met some of the Concourse fans in person!</p>
+
+<p>In other news, we’ve begun to sketch out what RBAC might look like in Concourse. Please check out <a href="https://github.com/concourse/concourse/issues/2389">#2389</a> when you have some time!</p>
+
+<p>On to the update:</p>
+
+<p><strong>UX</strong></p>
+
+<ul>
+  <li>Team has been working on adding drag and drop re-arranging for the dashboard in <a href="https://github.com/concourse/concourse/issues/2364">#2364</a></li>
+  <li>We also found a weird quirk with the new team creation flow, where you won’t see your team if it was just created and has no pipelines. We will be addressing this in <a href="https://github.com/concourse/concourse/issues/2382">#2382</a></li>
+  <li>Play/pause pipeline on the dashboard is mostly completed but was missing functionality when a search filter was applied; so I had to reject that story for review in <a href="https://github.com/concourse/concourse/issues/2365">#2365</a></li>
+  <li><a href="https://medium.com/u/84b937bda3b6">Lindsay Auchinachie</a> has also been entering some new UI polish issues to co-incide with our new dark theme: <a href="https://github.com/concourse/concourse/issues/2370">#2370</a>, <a href="https://github.com/concourse/concourse/issues/2385">#2385</a>, <a href="https://github.com/concourse/concourse/issues/2387">#2387</a>, <a href="https://github.com/concourse/concourse/issues/2361">#2361</a></li>
+</ul>
+
+<p><strong>Core</strong></p>
+
+<ul>
+  <li>Picked up some stories related our migrations, see <a href="https://github.com/concourse/concourse/issues/2380">#2380</a> and <a href="https://github.com/concourse/concourse/issues/2074">#2074</a></li>
+  <li>Keen watchers of our repo will notice that we’ve added a note in our <a href="https://cadet.cfapps.io/projects/Core#s-MDU6SXNzdWUzMzgzMjAxOTA%3D.s-MDU6SXNzdWUxOTA4MjM4NzU%3D.s-MDU6SXNzdWUzNDE1ODE1NTE%3D">core backlog</a> to start sketching out what additional work we need to get space moving along.</li>
+  <li>Reminder to check out and comment on the <a href="https://github.com/vito/rfcs/blob/resources-v2/01-resources-v2/proposal.md">Resources v2</a> proposal!</li>
+</ul>
+
+<p><strong>Integrations</strong></p>
+
+<ul>
+  <li>We closed <a href="https://github.com/concourse/docker-image-resource/issues/215">#215</a> in the docker-image-resource recently after we discovered a regression with a newer version of Docker. This seems to only affect large-scale Concourse installations that have reliability issues accessing and connecting to their local registries. A short-term fix is to target older versions of the docker-image-resource</li>
+</ul>
+
+<p><strong>Runtime</strong></p>
+
+<ul>
+  <li>Addressed <a href="https://github.com/concourse/concourse/issues/1516">#1516</a>, wherein Concourse doesn’t run any jobs if Vault misconfigured</li>
+  <li>Did some work to begin imposing limits on containers in <a href="https://github.com/concourse/concourse/issues/787">#787</a>. Please review this issue carefully if this affects you; since our initial resolution is very specific and requires you to understand the nature of your worker vms</li>
+  <li>Worked on <a href="https://github.com/concourse/concourse/issues/2375">#2375</a> “Listing destroying volumes should not perform any database write operations” :D</li>
+</ul>
+
+  </div><a class="u-url" href="/2018/07/20/concourse-update-jul-16-20.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Concourse Blog</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Concourse Blog</li><li><a class="u-email" href="mailto:noreply@blog.concourse-ci.org">noreply@blog.concourse-ci.org</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/concourse"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">concourse</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Come Fly The Friendly CI</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

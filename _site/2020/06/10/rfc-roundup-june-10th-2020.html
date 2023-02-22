@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>RFC round-up: June 10th, 2020 | Concourse Blog</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="RFC round-up: June 10th, 2020" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="First off: sorry, I immediately failed to keep my target pace for these. 😓 I got wrapped up in a deadline, and since I alternate weeks between engineering and community duties like this post, when I miss a week for RFC updates the 2-week interval can quickly turn into 4 or 5." />
+<meta property="og:description" content="First off: sorry, I immediately failed to keep my target pace for these. 😓 I got wrapped up in a deadline, and since I alternate weeks between engineering and community duties like this post, when I miss a week for RFC updates the 2-week interval can quickly turn into 4 or 5." />
+<link rel="canonical" href="http://localhost:4000/2020/06/10/rfc-roundup-june-10th-2020.html" />
+<meta property="og:url" content="http://localhost:4000/2020/06/10/rfc-roundup-june-10th-2020.html" />
+<meta property="og:site_name" content="Concourse Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-06-10T19:39:40-04:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="RFC round-up: June 10th, 2020" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2020-06-10T19:39:40-04:00","datePublished":"2020-06-10T19:39:40-04:00","description":"First off: sorry, I immediately failed to keep my target pace for these. 😓 I got wrapped up in a deadline, and since I alternate weeks between engineering and community duties like this post, when I miss a week for RFC updates the 2-week interval can quickly turn into 4 or 5.","headline":"RFC round-up: June 10th, 2020","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2020/06/10/rfc-roundup-june-10th-2020.html"},"url":"http://localhost:4000/2020/06/10/rfc-roundup-june-10th-2020.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Concourse Blog" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Concourse Blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">RFC round-up: June 10th, 2020</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2020-06-10T19:39:40-04:00" itemprop="datePublished">Jun 10, 2020
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>First off: sorry, I immediately failed to keep my target pace for these. 😓 I got wrapped up in a deadline, and since I alternate weeks between engineering and community duties like this post, when I miss a week for RFC updates the 2-week interval can quickly turn into 4 or 5.</p>
+
+<p>Owing to the missed round-up, and in hopes of burning through the backlog more quickly so that interested contributors may volunteer for merged RFCs, I’m going to expand the scope of this post to include more RFCs than the last one - primarily by proposing that we merge ones that are nearly certain for the <a href="__GHOST_URL__ /core-roadmap-towards-v10/">v10 roadmap</a>.</p>
+
+<h2 id="merged-rfcs">Merged RFCs</h2>
+
+<ul>
+  <li><a href="https://github.com/concourse/rfcs/pull/33">RFC #33</a> (pipeline archiving) and <a href="https://github.com/concourse/rfcs/pull/34">RFC #34</a> (pipeline instances) have both been merged! 🎉</li>
+</ul>
+
+<h2 id="rfcs-ready-to-merge">RFCs ready to merge</h2>
+
+<p>The following RFCs have been given the <code class="language-plaintext highlighter-rouge">resolution/merge</code> label:</p>
+
+<ul>
+  <li><a href="https://github.com/concourse/rfcs/pull/31">RFC #31: <code class="language-plaintext highlighter-rouge">set_pipeline</code> step</a> is the RFC corresponding to the <code class="language-plaintext highlighter-rouge">set_pipeline</code> step that was introduced experimentally in v5.8. Once this is merged, the step itself will no longer be experimental, but there <em>are</em> a couple of experimental features for the step that are now outlined in the RFC - <code class="language-plaintext highlighter-rouge">self</code> and <code class="language-plaintext highlighter-rouge">team:</code>. These features will result in warnings when used.</li>
+  <li><a href="https://github.com/concourse/rfcs/pull/40">RFC #40: valid identifiers</a> proposes that we restrict the set of allowed characters in Concourse identifiers such as pipeline names, job names, and resource names. Existing pipelines and objects will be grandfathered in to ease the transition. <em>Note: if you’re worried about this change you may be interested in <a href="https://github.com/concourse/rfcs/pull/34">RFC #34</a>.</em></li>
+  <li><a href="https://github.com/concourse/rfcs/pull/39">RFC #39: var sources</a> is the RFC corresponding to the <code class="language-plaintext highlighter-rouge">var_sources</code> feature, which was also introduced experimentally in v5.8. This feature is a key component to v10 - it unblocks spatial pipelines, per-job timed triggers, and per-pipeline credential management configuration.</li>
+  <li><a href="https://github.com/concourse/rfcs/pull/27">RFC #27: var steps</a> is behind the <a href="https://concourse-ci.org/jobs.html#load-var-step"><code class="language-plaintext highlighter-rouge">load_var</code> step</a> (shipped experimentally in v6.0), and also introduces a <code class="language-plaintext highlighter-rouge">get_var</code> step which can theoretically be used to implement per-job trigger intervals. This RFC builds on the var sources concept described in RFC #39.</li>
+</ul>
+
+<p>Per the <a href="https://github.com/concourse/rfcs/blob/master/README.md#resolution">resolution process</a>, if there are no objections or significant changes in the 2 weeks after this post is published, they will be merged! 🚀</p>
+
+<h2 id="rfcs-in-need-of-attention">RFCs in need of attention</h2>
+
+<p>Quite a few RFCs have had some pretty interesting discussions or developments since the last round-up:</p>
+
+<ul>
+  <li><a href="https://github.com/concourse/rfcs/pull/36">RFC #36: manual step</a> has had some juicy conversation around how things like approval and manual gating in a pipeline should be expressed in a Concoursey way - if you have thoughts on this, please chime in!</li>
+  <li><a href="https://github.com/concourse/rfcs/pull/37">RFC #37: prototypes</a> is the RFC for the “Prototypes” concept introduced in the <a href="__GHOST_URL__ /reinventing-resource-types/">Re-inventing resource types</a> blog post. The latest revision introduces encryption, which will enable Prototypes to implement credential managers. If you are a resource type author or if you have a security background, please give it a look!</li>
+  <li><a href="https://github.com/concourse/rfcs/pull/32">RFC #32: projects</a> now has a pretty radical new question: can Projects replace Teams in order to provide more complete cluster config automation? If you’ve ever had a need for automating team configuration, or if you have a thirst for GitOps, this should be a pretty interesting conversation!</li>
+</ul>
+
+<h2 id="new-rfcs">New RFCs</h2>
+
+<ul>
+  <li><a href="https://github.com/concourse/rfcs/pull/53">RFC #53: configurable build event stores</a> proposes a pluggable architecture for build event storage as an alternative to storing them in the database.</li>
+  <li><a href="https://github.com/concourse/rfcs/pull/59">RFC #59: static configuration</a> proposes a method for configuring Concourse with a config file that prescribes the teams and projects, in addition to the regular config that would previously have been set in flags or env vars. It also proposes disallowing the use of <code class="language-plaintext highlighter-rouge">fly set-team</code> at runtime so that the config is the source of truth.</li>
+</ul>
+
+<h2 id="thanks">Thanks!</h2>
+
+<p>Giving feedback on RFCs is critical to our ability to move forward more quickly and with higher confidence. Any and all comments and questions we receive are deeply appreciated. Thanks to everyone who’s been involved, and thanks in advance to everyone else! 🙂</p>
+
+<p>(Stay safe!)</p>
+
+
+  </div><a class="u-url" href="/2020/06/10/rfc-roundup-june-10th-2020.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Concourse Blog</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Concourse Blog</li><li><a class="u-email" href="mailto:noreply@blog.concourse-ci.org">noreply@blog.concourse-ci.org</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/concourse"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">concourse</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Come Fly The Friendly CI</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

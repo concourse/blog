@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Concourse Update (May 28 — June 1) | Concourse Blog</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="Concourse Update (May 28 — June 1)" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Come Fly The Friendly CI" />
+<meta property="og:description" content="Come Fly The Friendly CI" />
+<link rel="canonical" href="http://localhost:4000/2018/06/01/concourse-update-may-28-june-1.html" />
+<meta property="og:url" content="http://localhost:4000/2018/06/01/concourse-update-may-28-june-1.html" />
+<meta property="og:site_name" content="Concourse Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-06-01T00:00:00-04:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Concourse Update (May 28 — June 1)" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2018-06-01T00:00:00-04:00","datePublished":"2018-06-01T00:00:00-04:00","description":"Come Fly The Friendly CI","headline":"Concourse Update (May 28 — June 1)","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2018/06/01/concourse-update-may-28-june-1.html"},"url":"http://localhost:4000/2018/06/01/concourse-update-may-28-june-1.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Concourse Blog" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Concourse Blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Concourse Update (May 28 — June 1)</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2018-06-01T00:00:00-04:00" itemprop="datePublished">Jun 1, 2018
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/downloaded_images/Concourse-Update--May-28---June-1-/1-kJxF-3MOSqElyItFT2ec-A.png" class="kg-image" alt="" loading="lazy" /></figure>
+
+<p>If you’ve been experiencing “Aw Snap” errors on Chrome with Concourse 3.13.0 or 3.12.0 we traced the root case to two lines of CSS. This seems to happen only on Chrome 67; so a temporary workaround is to switch over to Chrome <a href="https://www.google.com/chrome/browser/canary.html">canary</a> or use Firefox/Safari/Edge. You can follow along in our discussion at GitHub issue <a href="https://github.com/concourse/concourse/issues/2236">#2236</a></p>
+
+<p>Now, on to the update</p>
+
+<p><strong>Runtime</strong></p>
+
+<p>We were able to successfully test our distributed volume GC collection code on our Wings environment this week. Overall we’ve seen a significant drop in Database Queries and a ~10% decrease in Web CPU usage.</p>
+
+<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/downloaded_images/Concourse-Update--May-28---June-1-/1-GfBC0PNc6p2DOiGAbcxKnA.png" class="kg-image" alt="" loading="lazy" /></figure>
+<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/downloaded_images/Concourse-Update--May-28---June-1-/1-n8Ea93MfUmDIGaPLtdU37Q.png" class="kg-image" alt="" loading="lazy" /></figure>
+
+<p>Notice how the Database Queries now look like a sawtooth; this is a result of our new “mark and sweep” GC strategy on workers.</p>
+
+<p><strong>Core</strong></p>
+
+<p>In an effort to make our new Users work backwards compatible and downgrade-able, we spent a good chunk of this week figuring out down-migrations. The conversation around this, and the compromises we’ve had to make can be found in Josh’s follow up comment <a href="https://github.com/concourse/concourse/issues/1888#issuecomment-392958566">here</a></p>
+
+<p><strong>UX</strong></p>
+
+<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/downloaded_images/Concourse-Update--May-28---June-1-/1-VzHW0teV3e1DfrqcYWc_-w.png" class="kg-image" alt="" loading="lazy" /></figure>
+
+<p>Check out the new breadcrumbs and responsive groups on our <a href="https://ci.concourse-ci.org/">prod environment</a>!</p>
+
+<p>We’re still looking for users who would be interested in testing out our new spatial resources view! <strong>Please reach out to me over Twitter or @jma on Discord if you’re interested!</strong></p>
+
+
+  </div><a class="u-url" href="/2018/06/01/concourse-update-may-28-june-1.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Concourse Blog</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Concourse Blog</li><li><a class="u-email" href="mailto:noreply@blog.concourse-ci.org">noreply@blog.concourse-ci.org</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/concourse"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">concourse</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Come Fly The Friendly CI</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
