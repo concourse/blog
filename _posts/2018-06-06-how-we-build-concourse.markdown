@@ -17,7 +17,7 @@ For issues regarding the Concourse website and documentation, you can find the b
 Concourse resources, both the ones [included with Concourse](https://concourse-ci.org/included-resources.html) and the ones that are[community made](https://concourse-ci.org/community-resources.html), live in their own repositories. Issues, bugs and features should be reported against the resource’s GitHub issues repo.
 
 ### **Triage, Review and Prioritization**
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/downloaded_images/How-We-Build-Concourse/0-OazVVQCEJfcfWaRZ" class="kg-image" alt loading="lazy"></figure>
+<figure class="kg-card kg-image-card"><img src="assets/images/downloaded_images/How-We-Build-Concourse/0-OazVVQCEJfcfWaRZ" class="kg-image" alt loading="lazy"></figure>
 
 We do our best to review and triage new issues that come into the Concourse repository on a daily basis. Triaging an issue requires us to:
 

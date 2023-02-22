@@ -4,7 +4,7 @@ title: Build Page Improvements
 date: '2017-10-26 00:00:00'
 ---
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/downloaded_images/Build-Page-Improvements/1-vjvvVZAw9nO4yRrveU0Ojg.gif" class="kg-image" alt loading="lazy"></figure>
+<figure class="kg-card kg-image-card"><img src="assets/images/downloaded_images/Build-Page-Improvements/1-vjvvVZAw9nO4yRrveU0Ojg.gif" class="kg-image" alt loading="lazy"></figure>
 
 [Concourse v3.6.0](https://concourse-ci.org/downloads.html#v360) comes with two new features on the build output page: timestamps and keyboard shortcuts.
 
@@ -15,7 +15,7 @@ When looking at the build page, you will now see timestamps reported against eac
 This feature addresses issue [#361](https://github.com/concourse/concourse/issues/361), [#838](https://github.com/concourse/concourse/issues/838) and [#1423](https://github.com/concourse/concourse/issues/1423). Thank you for your patience!
 
 ## Keyboard Shortcuts
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/downloaded_images/Build-Page-Improvements/1-8-_eZ3qsDLB8Sqq5I-9vTw.png" class="kg-image" alt loading="lazy"></figure>
+<figure class="kg-card kg-image-card"><img src="assets/images/downloaded_images/Build-Page-Improvements/1-8-_eZ3qsDLB8Sqq5I-9vTw.png" class="kg-image" alt loading="lazy"></figure>
 
 The build page also supports basic vim-style keyboard shortcuts as well. You can bring up a handy reference menu using&nbsp;? or SHIFT + / if you’re really having trouble finding it.
 

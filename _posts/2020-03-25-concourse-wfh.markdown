@@ -40,7 +40,7 @@ With those goals in mind, our team has pulled from different experiences and tec
 
 First and foremost, we have a perpetual group [Zoom](https://zoom.us/) meeting set up that everybody on the team hangs out in throughout the workday.
 
-<figure class="kg-card kg-image-card kg-card-hascaption"><img src=" __GHOST_URL__ /content/images/2020/03/Screen-Shot-2020-03-20-at-12.08.28-PM.png" class="kg-image" alt loading="lazy"><figcaption>A typical workday in the Concourse hangar.</figcaption></figure>
+<figure class="kg-card kg-image-card kg-card-hascaption"><img src="assets/images/2020/03/Screen-Shot-2020-03-20-at-12.08.28-PM.png" class="kg-image" alt loading="lazy"><figcaption>A typical workday in the Concourse hangar.</figcaption></figure>
 
 Having one single room might be unconventional, but negates the need to constantly jump in and out of different Zoom meetings, and all of the confusion that can create. &nbsp;It's tied to a easy-to-remember URL that makes it painless to join each day - no more memorizing meeting IDs!
 
@@ -54,7 +54,7 @@ The other major difference to Zoom meetings we held in the past is that now we r
 
 We were already using Discord for our open source community's text-based chat, but it also excels at fast, simple, and effective voice communications. The Concourse team uses a series of private voice channels (named after famous aircraft, of course ✈️) that we can join and depart with a single click.
 
-<figure class="kg-card kg-image-card kg-card-hascaption"><img src=" __GHOST_URL__ /content/images/2020/03/Screen-Shot-2020-03-23-at-1.56.04-PM.png" class="kg-image" alt loading="lazy"><figcaption>Pairs of engineers working in audio channels on Discord</figcaption></figure>
+<figure class="kg-card kg-image-card kg-card-hascaption"><img src="assets/images/2020/03/Screen-Shot-2020-03-23-at-1.56.04-PM.png" class="kg-image" alt loading="lazy"><figcaption>Pairs of engineers working in audio channels on Discord</figcaption></figure>
 
 This makes it easy to navigate for pair programming, impromptu meetings, or general chat and attention-getting. There’s even a #water-cooler channel that acts as the defacto hangout spot! With this system you can see who is paired up in the respective rooms at a glance, adding a level of transparency and organization that isn't possible when everyone is pairing through separate Zoom meetings or other telecommunication products.
 
@@ -87,7 +87,7 @@ Sometimes you just need a command line. In these situations, the team can also s
 
 This article has been heavy on technological solutions and workflow, but another thing worth mentioning is how positive and encouraging the team's attitude has been during the pandemic.
 
-<figure class="kg-card kg-image-card kg-card-hascaption"><img src=" __GHOST_URL__ /content/images/2020/03/Screen-Shot-2020-03-19-at-10.41.42-AM-1.png" class="kg-image" alt loading="lazy"><figcaption>Concourse engineers, best engineers.</figcaption></figure>
+<figure class="kg-card kg-image-card kg-card-hascaption"><img src="assets/images/2020/03/Screen-Shot-2020-03-19-at-10.41.42-AM-1.png" class="kg-image" alt loading="lazy"><figcaption>Concourse engineers, best engineers.</figcaption></figure>
 
 Even isolated to our respective homes, we've seen everyone step up to keep each other happy and healthy, and to keep work moving at a sustainable pace. I won't go into detail about all the memes, inside jokes, guitar solos, Zoom virtual backgrounds, and pet cameos that have been shared among the team in the past couple weeks - you can use your imagination. 😂
 

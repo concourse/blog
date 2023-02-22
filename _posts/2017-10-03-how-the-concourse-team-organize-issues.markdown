@@ -6,7 +6,7 @@ tags:
 - product-update
 ---
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/downloaded_images/How-the-Concourse-Team-Organize-Issues/1--19t4s8wuBf9tUCiluO_mQ.png" class="kg-image" alt loading="lazy"></figure>
+<figure class="kg-card kg-image-card"><img src="assets/images/downloaded_images/How-the-Concourse-Team-Organize-Issues/1--19t4s8wuBf9tUCiluO_mQ.png" class="kg-image" alt loading="lazy"></figure>
 
 As the Concourse team continues to grow in size and in the # of incoming issues, the team has been experimenting with new ways of managing our backlog. So far we have tried three different setups:
 
@@ -35,7 +35,7 @@ To address this, [Alex Suraci](https://medium.com/u/263a63b2f209) bucketed our i
 By bucketing our issues into projects, engineers can now spend more time in thematically similar problem spaces in the Concourse codebase.
 
 ### GitHub Projects
-<figure class="kg-card kg-image-card kg-card-hascaption"><img src=" __GHOST_URL__ /content/images/downloaded_images/How-the-Concourse-Team-Organize-Issues/1-5wA-RflsG_zFAyYMw0O95w.png" class="kg-image" alt loading="lazy"><figcaption>A snapshot of the Concourse UX project</figcaption></figure>
+<figure class="kg-card kg-image-card kg-card-hascaption"><img src="assets/images/downloaded_images/How-the-Concourse-Team-Organize-Issues/1-5wA-RflsG_zFAyYMw0O95w.png" class="kg-image" alt loading="lazy"><figcaption>A snapshot of the Concourse UX project</figcaption></figure>
 
 Our Concourse Projects manifest themselves as GitHub Projects in the Concourse GitHub organization. Annoyingly, GitHub doesn’t (yet?) allow us to share these projects publicly.
 

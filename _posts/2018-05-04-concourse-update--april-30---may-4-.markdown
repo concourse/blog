@@ -16,7 +16,7 @@ On to the update:
 
 We’ve been building out some of the frontend code for representing Spaces as part of [#2131](https://github.com/concourse/concourse/issues/2131). You can see some of the early visualizations below:
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/downloaded_images/Concourse-Update--April-30---May-4-/1-K13pFduQtcsPeX3VH6crQQ.png" class="kg-image" alt loading="lazy"></figure><figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/downloaded_images/Concourse-Update--April-30---May-4-/1-_ndF5rSNwVlKJWTj2_vxUQ.png" class="kg-image" alt loading="lazy"></figure><figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/downloaded_images/Concourse-Update--April-30---May-4-/1-kBELwDyhYQwPchw7J-O0eQ.png" class="kg-image" alt loading="lazy"></figure>
+<figure class="kg-card kg-image-card"><img src="assets/images/downloaded_images/Concourse-Update--April-30---May-4-/1-K13pFduQtcsPeX3VH6crQQ.png" class="kg-image" alt loading="lazy"></figure><figure class="kg-card kg-image-card"><img src="assets/images/downloaded_images/Concourse-Update--April-30---May-4-/1-_ndF5rSNwVlKJWTj2_vxUQ.png" class="kg-image" alt loading="lazy"></figure><figure class="kg-card kg-image-card"><img src="assets/images/downloaded_images/Concourse-Update--April-30---May-4-/1-kBELwDyhYQwPchw7J-O0eQ.png" class="kg-image" alt loading="lazy"></figure>
 
 We now have the capability of testing Space end-to-end i.e. write the yml -\> fly sp -\> check out the web visualization.
 

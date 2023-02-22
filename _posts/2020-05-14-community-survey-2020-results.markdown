@@ -49,17 +49,17 @@ These issues have remained top of mind in the community for the past few years, 
 ## **Demographic Data**
 
 ### **How long have you used Concourse?**
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2020/05/Screen-Shot-2020-05-14-at-11.24.35-AM-1.png" class="kg-image" alt loading="lazy"></figure>
+<figure class="kg-card kg-image-card"><img src="assets/images/2020/05/Screen-Shot-2020-05-14-at-11.24.35-AM-1.png" class="kg-image" alt loading="lazy"></figure>
 
 Most of the people who responded indicated they had been using Concourse for one year or less. It's great to see that more people are picking up and experimenting with Concourse with each new release, and it's just as exciting to see that people stick around: more than 45% of respondents said they have been using Concourse for **2+ years**. Whenever we interpret feedback from the community, we want to make sure we're taking into account the experiences of both newcomers, established users, and very experienced power users. Each segment experiences different challenges, and prioritizes different parts of the product.
 
 ### **Other CI CD tools used**
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2020/05/Screen-Shot-2020-05-14-at-11.24.03-AM-1.png" class="kg-image" alt loading="lazy"></figure>
+<figure class="kg-card kg-image-card"><img src="assets/images/2020/05/Screen-Shot-2020-05-14-at-11.24.03-AM-1.png" class="kg-image" alt loading="lazy"></figure>
 
 Another dimension that's helpful to understand is the related experiences that each survey respondent is equipped with. When looking at other CI/CD tools that our community employs, **Jenkins** is still the top dog, accounting for nearly 30% of the tools mentioned. **Github Actions** has seen a rise in adoption since its initial release, and Travis, Gitlab, Bitbucket, and CircleCI are all fairly common options as well.
 
 ### **How did you find out about Concourse?**
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2020/05/Screen-Shot-2020-05-14-at-11.22.53-AM.png" class="kg-image" alt loading="lazy"></figure>
+<figure class="kg-card kg-image-card"><img src="assets/images/2020/05/Screen-Shot-2020-05-14-at-11.22.53-AM.png" class="kg-image" alt loading="lazy"></figure>
 
 Pivotal Software (now VMware) has been Concourse's largest supporter since the project's inception. In previous years, it was common to see more than half of respondents say they were introduced to Concourse CI through a Pivotal Labs engagement, or through Concourse’s role in automation of the Pivotal Platform, Pivotal [Cloud Foundry](https://www.cloudfoundry.org/). Now the community has started to branch out, with only 22% of people reporting that they learned about the product through Pivotal.
 
@@ -68,47 +68,47 @@ The majority of users seem to have found Concourse organically, through search e
 We'd love to grow that _Conference or Meetup_ section in 2020 - who's up for a remote meetup over Zoom? 🙌
 
 ### **Why use Concourse?**
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2020/05/Screen-Shot-2020-05-14-at-11.24.16-AM.png" class="kg-image" alt loading="lazy"></figure>
+<figure class="kg-card kg-image-card"><img src="assets/images/2020/05/Screen-Shot-2020-05-14-at-11.24.16-AM.png" class="kg-image" alt loading="lazy"></figure>
 
 When asked about the very important _ **why** _ behind their Concourse usage, concerns about **Open Source** tooling and **flexibility** were top of mind. The special emphasis that Concourse put on **reproducibility** and **user interface** also ranked highly, along with Concourse's **scalability** and overall feature set. Scalability is always a huge concern for the team, as we see enterprise customers frequently testing the limits of their tooling (sometimes with hundreds of Concourse clusters, many thousands of teams, and many _hundreds of thousands_ of pipelines). Likewise, reproducibility is a commitment we're not planning on straying from any time soon.
 
 ### **Concourse Versions**
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2020/05/Screen-Shot-2020-05-14-at-11.53.24-AM.png" class="kg-image" alt loading="lazy"></figure>
+<figure class="kg-card kg-image-card"><img src="assets/images/2020/05/Screen-Shot-2020-05-14-at-11.53.24-AM.png" class="kg-image" alt loading="lazy"></figure>
 
 We released the survey _just_ as v6.0.0 of Concourse was being finalized, so it was only close to the end that we started to see people upgrading to v6. We're thrilled, nonetheless, to see so many people had already upgraded to v5.8.x. Together, versions v5.8.x and v5.7.x represented the majority of survey respondents, with a low (\>10) rate of responses for any other version.
 
 To those 12 users who are still on v4.x.x and 7 users still on v3.x.x, feel free to[get in touch on the Concourse Discord](https://discord.gg/MeRxXKW) if you need any help upgrading! You can find all of the wonderful reasons to upgrade in the[release notes](https://github.com/concourse/concourse/releases), and we'll write blog articles in the coming months highlighting some of the latest and greatest new features and optimizations, as well as some upcoming enhancements on our roadmap.
 
 ### **Scale**
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2020/05/Screen-Shot-2020-05-14-at-11.23.29-AM.png" class="kg-image" alt loading="lazy"></figure>
+<figure class="kg-card kg-image-card"><img src="assets/images/2020/05/Screen-Shot-2020-05-14-at-11.23.29-AM.png" class="kg-image" alt loading="lazy"></figure>
 
 The data gathered shows that the majority of respondents are working with Concourses organized with fewer teams. And when it comes to users...
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2020/05/Screen-Shot-2020-05-14-at-11.23.48-AM.png" class="kg-image" alt loading="lazy"></figure>
+<figure class="kg-card kg-image-card"><img src="assets/images/2020/05/Screen-Shot-2020-05-14-at-11.23.48-AM.png" class="kg-image" alt loading="lazy"></figure>
 
 ... we see a lot of smaller Concourse instances of under 10 users. There are also a few examples of large, enterprise scale deployments of 100+ users over 50+ teams. On the Concourse team, we frequently reach out to enterprise customers for special feedback on more massive implementation concerns. We also survey and interview members of the open source community to make sure we're building solutions that scale _down_ to single users and small teams.
 
 If you'd like to add your voice, feel free to join in on the[Concourse Discussions](https://github.com/concourse/concourse/discussions) board.
 
 ### **Deployment Method**
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2020/05/Screen-Shot-2020-05-14-at-11.22.23-AM.png" class="kg-image" alt loading="lazy"></figure>
+<figure class="kg-card kg-image-card"><img src="assets/images/2020/05/Screen-Shot-2020-05-14-at-11.22.23-AM.png" class="kg-image" alt loading="lazy"></figure>
 
 **Docker** remains the most frequently used deployment method, but the margins are slowly shrinking, and there's more even distribution across other popular options than we've seen in past years.
 
 Nearly identical numbers of responses came in citing **Kubernetes** (via the Helm chart), **BOSH** , and **VM** deployment strategies, reinforcing both our interest in facilitating K8s workflows and supporting our substantial BOSH user base.
 
 ### **Concourse Usage Style**
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2020/05/Screen-Shot-2020-05-14-at-11.24.53-AM.png" class="kg-image" alt loading="lazy"></figure>
+<figure class="kg-card kg-image-card"><img src="assets/images/2020/05/Screen-Shot-2020-05-14-at-11.24.53-AM.png" class="kg-image" alt loading="lazy"></figure>
 
 This year we asked about our users' usage style - specifically, what sort of development scenarios they were using Concourse to facilitate. Concourse remains an **Infrastructure Automation** powerhouse, and a similar number of users are using it to perform **CI for web development** and **deploying software** as part of their **path to production**.
 
 ### **Workloads**
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2020/05/Screen-Shot-2020-05-14-at-11.57.17-AM.png" class="kg-image" alt loading="lazy"></figure>
+<figure class="kg-card kg-image-card"><img src="assets/images/2020/05/Screen-Shot-2020-05-14-at-11.57.17-AM.png" class="kg-image" alt loading="lazy"></figure>
 
 **Linux workloads** represent the vast majority for the Concourse community. We're also paying attention to special concerns for those running **Windows** and **Darwin** workloads, however this knowledge will help us prioritize fixes to help the largest group of users possible.
 
 ### **Preferred IAAS**
-<figure class="kg-card kg-image-card kg-card-hascaption"><img src=" __GHOST_URL__ /content/images/2020/05/Screen-Shot-2020-05-14-at-1.10.07-PM.png" class="kg-image" alt loading="lazy"><figcaption>Note: RMDH is remotely-managed dedicated hardware</figcaption></figure>
+<figure class="kg-card kg-image-card kg-card-hascaption"><img src="assets/images/2020/05/Screen-Shot-2020-05-14-at-1.10.07-PM.png" class="kg-image" alt loading="lazy"><figcaption>Note: RMDH is remotely-managed dedicated hardware</figcaption></figure>
 
 Finally, when asked about their preferred IAAS, **AWS** takes the top position again for the third year in a row. We consistently see a strong vSphere presence from enterprise customers, but it's really interesting to see the variety of setups that the open source community as a whole employs when deploying Concourse.
 

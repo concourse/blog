@@ -6,7 +6,7 @@ tags:
 - product-update
 ---
 
-<figure class="kg-card kg-image-card kg-card-hascaption"><img src=" __GHOST_URL__ /content/images/downloaded_images/Concourse-Update--Jan-21-25-/1-t_CkNyt-IVxZrxMiARCJLQ.jpeg" class="kg-image" alt loading="lazy"><figcaption>Dennis Jarvis</figcaption></figure>
+<figure class="kg-card kg-image-card kg-card-hascaption"><img src="assets/images/downloaded_images/Concourse-Update--Jan-21-25-/1-t_CkNyt-IVxZrxMiARCJLQ.jpeg" class="kg-image" alt loading="lazy"><figcaption>Dennis Jarvis</figcaption></figure>
 
 Its been a week since we switched over to the PR workflow and so far its been great! We’re still working through some of the kinks with this process so please bear with us while we continue to burn down through the list of open PRs!
 

@@ -6,7 +6,7 @@ tags:
 - product-update
 ---
 
-<figure class="kg-card kg-image-card kg-card-hascaption"><img src=" __GHOST_URL__ /content/images/downloaded_images/Concourse-Updates--July-3-6-/0-BrjbFvtgpagi0Ag3.png" class="kg-image" alt loading="lazy"><figcaption>Concourse, beavers, poutine and maple syrup</figcaption></figure>
+<figure class="kg-card kg-image-card kg-card-hascaption"><img src="assets/images/downloaded_images/Concourse-Updates--July-3-6-/0-BrjbFvtgpagi0Ag3.png" class="kg-image" alt loading="lazy"><figcaption>Concourse, beavers, poutine and maple syrup</figcaption></figure>
 
 Since July 1st was the official day of [Canada’s birth](https://en.wikipedia.org/wiki/Canada_Day), the Concourse team enjoyed a long weekend with no work on Monday. We were, however, able to get quite a bit done during this short week.
 
@@ -25,7 +25,7 @@ Anyways, on to the update:
 
 - Fixed some minor UI issues across the board: [#2333](https://github.com/concourse/concourse/issues/2333), [#2313](https://github.com/concourse/concourse/issues/2313), [#2291](https://github.com/concourse/concourse/issues/2291), and [#2310](https://github.com/concourse/concourse/issues/2310)
 - Continued our work in routing Dashboard page to the Home page in [#2282](https://github.com/concourse/concourse/issues/2282). This, however, has turned into a bit of a scope creep and we are now upgrading the entire UI to use the new dark theme:
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/downloaded_images/Concourse-Updates--July-3-6-/1-Xp51wHexBz5wx1GcqaCvwA.png" class="kg-image" alt loading="lazy"></figure>
+<figure class="kg-card kg-image-card"><img src="assets/images/downloaded_images/Concourse-Updates--July-3-6-/1-Xp51wHexBz5wx1GcqaCvwA.png" class="kg-image" alt loading="lazy"></figure>
 
 **Core**
 

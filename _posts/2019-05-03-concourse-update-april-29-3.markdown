@@ -10,7 +10,7 @@ In case you missed it, we’ve made some tweaks to the structure of the website.
 
 Second, you’ll notice that a lot of the community related comment that was on our homepage has now been moved to our [Concourse GitHub Wiki](https://github.com/concourse/concourse/wiki). We hope this change will make contributor and community specific content more discoverable and more maintainable over time.
 
-<figure class="kg-card kg-image-card kg-card-hascaption"><img src=" __GHOST_URL__ /content/images/downloaded_images/Concourse-Update-April-29-3/1-08IsVksi-Nc9O0BnmW5MiA.png" class="kg-image" alt loading="lazy"><figcaption>Concourse Wiki with more Contributor things!</figcaption></figure>
+<figure class="kg-card kg-image-card kg-card-hascaption"><img src="assets/images/downloaded_images/Concourse-Update-April-29-3/1-08IsVksi-Nc9O0BnmW5MiA.png" class="kg-image" alt loading="lazy"><figcaption>Concourse Wiki with more Contributor things!</figcaption></figure>
 
 Notably, the [Resource Types](https://github.com/concourse/concourse/wiki/Resource-Types), [Tutorials&nbsp;](https://github.com/concourse/concourse/wiki/Tutorials), and [Tools](https://github.com/concourse/concourse/wiki/Tools) page has moved over to the wiki. Content that may be new to some of you include the Project Management section: [How Issues are Managed](https://github.com/concourse/concourse/wiki/How-Issues-are-Managed), [How to Process PRs](https://github.com/concourse/concourse/wiki/How-to-Process-PRs), and [Release Process](https://github.com/concourse/concourse/wiki/Release-Process).
 

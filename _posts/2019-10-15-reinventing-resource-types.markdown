@@ -72,7 +72,7 @@ A resource type that fits the original design of resources implements the follow
 The easiest example of a 'proper' resource type is `git`. The `check` action consults `git log --first-parent` to return ordered commits for a single branch. The `in` action does a `git clone` to fetch the repo and check out the given commit; this is easily cached. The `out` action does a `git push`, optionally rebasing and returning a new version in the event of a conflict.
 
 ## When is a resource type not a _resource_ type?
-<figure class="kg-card kg-image-card kg-card-hascaption"><img src=" __GHOST_URL__ /content/images/2019/10/image-3.png" class="kg-image" alt loading="lazy"><figcaption>the treachery of container images</figcaption></figure>
+<figure class="kg-card kg-image-card kg-card-hascaption"><img src="assets/images/2019/10/image-3.png" class="kg-image" alt loading="lazy"><figcaption>the treachery of container images</figcaption></figure>
 
 Resource types should always implement `check` and `in`. Being able to find and fetch versions is what makes a resource a [resource](https://www.merriam-webster.com/dictionary/resource). Some resource types, however, only implement `out`. These resource types exist solely to be run as a `put` step - a form of "generic tasks" limited by the fact that it can't produce any outputs local to the build.
 
@@ -173,7 +173,7 @@ Verbosity aside, tasks are also strictly worse at parameterization. Task `params
 It seems like we need something in between tasks and resource types. We need something as versatile as tasks and as easy to use as resource types.
 
 ## Bridging the gap
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2019/10/image-1.png" class="kg-image" alt loading="lazy"></figure>
+<figure class="kg-card kg-image-card"><img src="assets/images/2019/10/image-1.png" class="kg-image" alt loading="lazy"></figure>
 
 Let's hone in on the reason why resource types don't work for every use case: they have a particular set of actions which have particular semantics because they're built for a particular Concourse use case: resources.
 
@@ -185,7 +185,7 @@ With `check` and `get` removed, the interface was definitely not a _resource_ ty
 
 After much deliberation, I decided to call these things **prototypes**. This name is inspired by prototype-based object-oriented languages like JavaScript, [Self](http://www.selflanguage.org/), and [Io](https://iolanguage.org/). Conveniently enough, it still has "type" in the name, so all those `type:` fields on resources still make sense!
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2019/10/image-2.png" class="kg-image" alt loading="lazy"></figure>
+<figure class="kg-card kg-image-card"><img src="assets/images/2019/10/image-2.png" class="kg-image" alt loading="lazy"></figure>
 
 The next change in my fork of RFC #24 was to adjust the terminology. Now that the interface was so open-ended, I wanted to build a solid mental model so that prototype authors would have an idea of how prototypes are meant to be designed. I did this by stealing more terminology from prototype-based OOP.
 

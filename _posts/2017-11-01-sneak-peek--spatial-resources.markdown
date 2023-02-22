@@ -4,7 +4,7 @@ title: 'Sneak Peek: Spatial Resources'
 date: '2017-11-01 00:00:00'
 ---
 
-<figure class="kg-card kg-image-card kg-card-hascaption"><img src=" __GHOST_URL__ /content/images/downloaded_images/Sneak-Peek--Spatial-Resources/1-agN3JPhVv4Fyfvp-2VQsRQ.png" class="kg-image" alt loading="lazy"><figcaption>An early visualization of Spatial Resources</figcaption></figure>
+<figure class="kg-card kg-image-card kg-card-hascaption"><img src="assets/images/downloaded_images/Sneak-Peek--Spatial-Resources/1-agN3JPhVv4Fyfvp-2VQsRQ.png" class="kg-image" alt loading="lazy"><figcaption>An early visualization of Spatial Resources</figcaption></figure>
 
 If you’ve been paying close attention to our [issues on GitHub](https://github.com/concourse/concourse/issues/) you may have noticed a small flurry of activity around one specific issue: [#1707 Spike: spatial resource flows](https://github.com/concourse/concourse/issues/1707).
 
@@ -19,7 +19,7 @@ Over time we researched similar build paradigms and thought deeply about general
 > …(a spatial resource) introduces the ability to have arbitrary build matrixes within one pipeline, which should dramatically improve the experience for people testing many variations/combinations.
 
 ### Would you like to know&nbsp;more?
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/downloaded_images/Sneak-Peek--Spatial-Resources/1-9vFBBZBYtFvCxsDnoMZszw.jpeg" class="kg-image" alt loading="lazy"></figure>
+<figure class="kg-card kg-image-card"><img src="assets/images/downloaded_images/Sneak-Peek--Spatial-Resources/1-9vFBBZBYtFvCxsDnoMZszw.jpeg" class="kg-image" alt loading="lazy"></figure>
 
 There’s a few ways you can get involved as the Concourse team continues to build out spaces:
 

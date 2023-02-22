@@ -6,7 +6,7 @@ tags:
 - product-update
 ---
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/downloaded_images/Concourse-Update--Jun-18-22-/0-iPsCYY5ob7h-bSKD.jpg" class="kg-image" alt loading="lazy"></figure>
+<figure class="kg-card kg-image-card"><img src="assets/images/downloaded_images/Concourse-Update--Jun-18-22-/0-iPsCYY5ob7h-bSKD.jpg" class="kg-image" alt loading="lazy"></figure>
 
 It’s been a busy week for myself and [Topher Bullock](https://medium.com/u/58876cdc2180). We spent some time in Boston meeting with some users operating large-scale Concourses. We learned a lot about the issues they were running into operating Concourse a scale…and we ate a lot of Lobster!
 

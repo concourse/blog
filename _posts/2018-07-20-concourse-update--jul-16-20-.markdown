@@ -6,7 +6,7 @@ tags:
 - product-update
 ---
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/downloaded_images/Concourse-Update--Jul-16-20-/1-CIxNgJ_FKbnacEpUI588nw.jpeg" class="kg-image" alt loading="lazy"></figure>
+<figure class="kg-card kg-image-card"><img src="assets/images/downloaded_images/Concourse-Update--Jul-16-20-/1-CIxNgJ_FKbnacEpUI588nw.jpeg" class="kg-image" alt loading="lazy"></figure>
 
 This week, the Concourse team went out to Portland to attend OSCON 2018. [Topher Bullock](https://medium.com/u/58876cdc2180) gave a great intro to Concourse in the Open Source track. We even met some of the Concourse fans in person!
 

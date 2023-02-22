@@ -5,7 +5,7 @@ date: '2018-12-20 00:00:00'
 ---
 
 ### Or, “why we haven’t shipped any new features since September.”
-<figure class="kg-card kg-image-card kg-card-hascaption"><img src=" __GHOST_URL__ /content/images/downloaded_images/The-Great-Process-Update-of-2018/1-Fdk1aihMwmllUR7HOBp2kg.jpeg" class="kg-image" alt loading="lazy"><figcaption>pixabay.com</figcaption></figure>
+<figure class="kg-card kg-image-card kg-card-hascaption"><img src="assets/images/downloaded_images/The-Great-Process-Update-of-2018/1-Fdk1aihMwmllUR7HOBp2kg.jpeg" class="kg-image" alt loading="lazy"><figcaption>pixabay.com</figcaption></figure>
 
 You may have noticed that our release cadence has slowed down significantly in the past few months. The _bad news_ is we probably won’t get a release out this year (mainly due to end-of-year vacations and slowing down in general), but the _good news_ is the next release is huge — big enough to bump us to v5.0 — and it’s just about ready. I’ll have more information on the next release in an upcoming post.
 

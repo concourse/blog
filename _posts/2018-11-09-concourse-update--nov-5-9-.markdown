@@ -6,7 +6,7 @@ tags:
 - product-update
 ---
 
-<figure class="kg-card kg-image-card kg-card-hascaption"><img src=" __GHOST_URL__ /content/images/downloaded_images/Concourse-Update--Nov-5-9-/1-JcXgBDqfq8Lwc4WNwyJgQg.jpeg" class="kg-image" alt loading="lazy"><figcaption>)</figcaption></figure>
+<figure class="kg-card kg-image-card kg-card-hascaption"><img src="assets/images/downloaded_images/Concourse-Update--Nov-5-9-/1-JcXgBDqfq8Lwc4WNwyJgQg.jpeg" class="kg-image" alt loading="lazy"><figcaption>)</figcaption></figure>
 
 Right off the bat I’d like to give a shoutout to [Jamie Klassen](https://medium.com/u/f0f4a8a2fbb8) and his new post about the upcoming feature for pinning resources. You can check it out the new post here:[https://medium.com/concourse-ci/resource-page-explained-eb99cf256fb5](https://medium.com/concourse-ci/resource-page-explained-eb99cf256fb5)
 

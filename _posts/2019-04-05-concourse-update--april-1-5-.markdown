@@ -6,7 +6,7 @@ tags:
 - product-update
 ---
 
-<figure class="kg-card kg-image-card kg-card-hascaption"><img src=" __GHOST_URL__ /content/images/downloaded_images/Concourse-Update--April-1-5-/1-nZQ4xbWXguDpNQzLEkcJcA.jpeg" class="kg-image" alt loading="lazy"><figcaption>Concourse in action at the CF Summit 2019 Grape Up booth</figcaption></figure>
+<figure class="kg-card kg-image-card kg-card-hascaption"><img src="assets/images/downloaded_images/Concourse-Update--April-1-5-/1-nZQ4xbWXguDpNQzLEkcJcA.jpeg" class="kg-image" alt loading="lazy"><figcaption>Concourse in action at the CF Summit 2019 Grape Up booth</figcaption></figure>
 
 Greetings from sunny Philadelphia! The team was there for the [Cloud Foundry 2019 NA Summit](https://www.cloudfoundry.org/event/nasummit2019/) for a few days; talking to Concourse users and attending talks. Recorded videos of the talks should be uploaded soon; so I’ll point you to the interesting Concourse-related ones next week.
 
@@ -18,7 +18,7 @@ On to the update.
 - Regarding the runtime, there’s been an active conversation around better build scheduling and load distribution. You can catch up on the thread [here](https://github.com/concourse/concourse/issues/2928). We’d love for you to tell us about your own experience in our meta-issue [#3695](https://github.com/concourse/concourse/issues/3695)
 
 ## Coming Soon: Concourse 5.1.0
-<figure class="kg-card kg-image-card kg-card-hascaption"><img src=" __GHOST_URL__ /content/images/downloaded_images/Concourse-Update--April-1-5-/1-dEssJTEo9_VnNszNDUj6gQ.png" class="kg-image" alt loading="lazy"><figcaption>Icons on resources</figcaption></figure>
+<figure class="kg-card kg-image-card kg-card-hascaption"><img src="assets/images/downloaded_images/Concourse-Update--April-1-5-/1-dEssJTEo9_VnNszNDUj6gQ.png" class="kg-image" alt loading="lazy"><figcaption>Icons on resources</figcaption></figure>
 
 We’re in the process of polishing up some items that we weren’t quite able to zfit into the 5.0.0 release. There’s been also some interesting new features and new PRs that you can look forward to in 5.1.0 as well:
 

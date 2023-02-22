@@ -6,7 +6,7 @@ tags:
 - product-update
 ---
 
-<figure class="kg-card kg-image-card kg-card-hascaption"><img src=" __GHOST_URL__ /content/images/downloaded_images/Concourse-Update--Oct-9-12-/1-beC36nbzVbF57aHcM2jEyQ.jpeg" class="kg-image" alt loading="lazy"><figcaption>From the Smithsonian National Air and Space Museum in Washington D.C.</figcaption></figure>
+<figure class="kg-card kg-image-card kg-card-hascaption"><img src="assets/images/downloaded_images/Concourse-Update--Oct-9-12-/1-beC36nbzVbF57aHcM2jEyQ.jpeg" class="kg-image" alt loading="lazy"><figcaption>From the Smithsonian National Air and Space Museum in Washington D.C.</figcaption></figure>
 
 The results of the [Concourse 2018 Community survey](https://medium.com/concourse-ci/2018-community-survey-ddff90bdc35b) is out! Thanks to everyone who took the time to fill it out; and to [Scott Foerster](https://medium.com/u/86d0fa097bb9) and [Lindsay Auchinachie](https://medium.com/u/84b937bda3b6) for sifting through the data.
 

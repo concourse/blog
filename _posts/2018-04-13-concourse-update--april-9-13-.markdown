@@ -17,4 +17,4 @@ On another note: I’ve noticed some interesting articles and guides come out on
 
 Fun fact: we got some new stickers printed up and we’ll be handing some out at Summit:
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/downloaded_images/Concourse-Update--April-9-13-/1-cS-JeBD00f0h7vhlpYTE7w.png" class="kg-image" alt loading="lazy"></figure><figure class="kg-card kg-image-card kg-card-hascaption"><img src=" __GHOST_URL__ /content/images/downloaded_images/Concourse-Update--April-9-13-/1-thrSlXnAzYewzqirHjukWA.png" class="kg-image" alt loading="lazy"><figcaption>Whee!</figcaption></figure>
+<figure class="kg-card kg-image-card"><img src="assets/images/downloaded_images/Concourse-Update--April-9-13-/1-cS-JeBD00f0h7vhlpYTE7w.png" class="kg-image" alt loading="lazy"></figure><figure class="kg-card kg-image-card kg-card-hascaption"><img src="assets/images/downloaded_images/Concourse-Update--April-9-13-/1-thrSlXnAzYewzqirHjukWA.png" class="kg-image" alt loading="lazy"><figcaption>Whee!</figcaption></figure>

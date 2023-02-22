@@ -6,7 +6,7 @@ tags:
 - product-update
 ---
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/downloaded_images/Concourse-Update--May-28---June-1-/1-kJxF-3MOSqElyItFT2ec-A.png" class="kg-image" alt loading="lazy"></figure>
+<figure class="kg-card kg-image-card"><img src="assets/images/downloaded_images/Concourse-Update--May-28---June-1-/1-kJxF-3MOSqElyItFT2ec-A.png" class="kg-image" alt loading="lazy"></figure>
 
 If you’ve been experiencing “Aw Snap” errors on Chrome with Concourse 3.13.0 or 3.12.0 we traced the root case to two lines of CSS. This seems to happen only on Chrome 67; so a temporary workaround is to switch over to Chrome [canary](https://www.google.com/chrome/browser/canary.html) or use Firefox/Safari/Edge. You can follow along in our discussion at GitHub issue [#2236](https://github.com/concourse/concourse/issues/2236)
 
@@ -16,7 +16,7 @@ Now, on to the update
 
 We were able to successfully test our distributed volume GC collection code on our Wings environment this week. Overall we’ve seen a significant drop in Database Queries and a ~10% decrease in Web CPU usage.
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/downloaded_images/Concourse-Update--May-28---June-1-/1-GfBC0PNc6p2DOiGAbcxKnA.png" class="kg-image" alt loading="lazy"></figure><figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/downloaded_images/Concourse-Update--May-28---June-1-/1-n8Ea93MfUmDIGaPLtdU37Q.png" class="kg-image" alt loading="lazy"></figure>
+<figure class="kg-card kg-image-card"><img src="assets/images/downloaded_images/Concourse-Update--May-28---June-1-/1-GfBC0PNc6p2DOiGAbcxKnA.png" class="kg-image" alt loading="lazy"></figure><figure class="kg-card kg-image-card"><img src="assets/images/downloaded_images/Concourse-Update--May-28---June-1-/1-n8Ea93MfUmDIGaPLtdU37Q.png" class="kg-image" alt loading="lazy"></figure>
 
 Notice how the Database Queries now look like a sawtooth; this is a result of our new “mark and sweep” GC strategy on workers.
 
@@ -26,7 +26,7 @@ In an effort to make our new Users work backwards compatible and downgrade-able,
 
 **UX**
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/downloaded_images/Concourse-Update--May-28---June-1-/1-VzHW0teV3e1DfrqcYWc_-w.png" class="kg-image" alt loading="lazy"></figure>
+<figure class="kg-card kg-image-card"><img src="assets/images/downloaded_images/Concourse-Update--May-28---June-1-/1-VzHW0teV3e1DfrqcYWc_-w.png" class="kg-image" alt loading="lazy"></figure>
 
 Check out the new breadcrumbs and responsive groups on our [prod environment](https://ci.concourse-ci.org/)!
 

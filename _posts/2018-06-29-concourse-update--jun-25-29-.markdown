@@ -6,7 +6,7 @@ tags:
 - product-update
 ---
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/downloaded_images/Concourse-Update--Jun-25-29-/1-eGvw-f2AjgJvsWN9pdikBg.gif" class="kg-image" alt loading="lazy"></figure>
+<figure class="kg-card kg-image-card"><img src="assets/images/downloaded_images/Concourse-Update--Jun-25-29-/1-eGvw-f2AjgJvsWN9pdikBg.gif" class="kg-image" alt loading="lazy"></figure>
 
 If you’ve been following along with our [Auth changes](https://medium.com/concourse-ci/oh-auth-f4fe68438171), you’ll know that we’ve been doing a lot of work behind the scenes to make the upgrade into this new world as seamless as possible. This week, we were able to do our first large-scale upgrade test against our Wings instance. The upgrade went well and we were able to find a few more areas of polish before we push this feature. You can find our updated list of future incompatibilities in GitHub issue [#2218](https://github.com/concourse/concourse/issues/2218). Having considered the nature of the breaking changes, the next update of Concourse with Users will push us into[4.0.0](https://github.com/concourse/concourse/issues/2218#issuecomment-401078612)!!!
 
@@ -27,4 +27,4 @@ _Edit_
 
 I ALMOST FORGOT! We also improved build page performance [#1543](https://github.com/concourse/concourse/issues/1543)! In some instances we reduced the page load time from 25s to only 5s:
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/downloaded_images/Concourse-Update--Jun-25-29-/1-KEWandpQWRWRFcBvLRwbog.jpeg" class="kg-image" alt loading="lazy"></figure>
+<figure class="kg-card kg-image-card"><img src="assets/images/downloaded_images/Concourse-Update--Jun-25-29-/1-KEWandpQWRWRFcBvLRwbog.jpeg" class="kg-image" alt loading="lazy"></figure>

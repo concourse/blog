@@ -10,7 +10,7 @@ As a Product Manger at Pivotal I’m often called on to help with our customer�
 
 One of the primary use case for Concourse within the Pivotal Cloud Foundry ([PCF](https://www.google.com/search?q=pivotal+cloud+foundry&oq=pivotal+cloud+fou&aqs=chrome.0.0j69i60l2j69i65l2j69i60.3685j0j7&sourceid=chrome&ie=UTF-8)) ecosystem is to automate the toil of manual maintenance against the platform; specifically [PAS](https://pivotal.io/platform/pivotal-application-service) and [PKS](https://pivotal.io/platform/pivotal-container-service). For the purposes of this issue, the specific details of the pipeline doesn’t matter but an understanding the general flow of the pipeline will help frame problem:
 
-<figure class="kg-card kg-image-card kg-card-hascaption"><img src=" __GHOST_URL__ /content/images/downloaded_images/Suspicious-Volume-Usage-on-Workers/1-afxjY-fNHqW6BPik1xdGVQ.png" class="kg-image" alt loading="lazy"><figcaption>A simplified version of a pipeline used to pull updates from the Pivotal Network and apply the changes onto Ops Manager</figcaption></figure>
+<figure class="kg-card kg-image-card kg-card-hascaption"><img src="assets/images/downloaded_images/Suspicious-Volume-Usage-on-Workers/1-afxjY-fNHqW6BPik1xdGVQ.png" class="kg-image" alt loading="lazy"><figcaption>A simplified version of a pipeline used to pull updates from the Pivotal Network and apply the changes onto Ops Manager</figcaption></figure>
 
 In these pipelines the pivnet-resource is responsible for monitoring new product versions on [network.pivotal.io](https://network.pivotal.io/) (aka PivNet). When a new product version is released on PivNet, the pivnet-resource picks it up and initiates a download. These files are relatively large, from 500mb to over 1 GB
 
@@ -24,7 +24,7 @@ Having to periodically recreate workers is a _huge_ pain and it doesn’t give o
 
 After some poking and prodding, I think we figured out what was happening in this specific scenario. Using the same simplified pipeline above, consider the following scenario:
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/downloaded_images/Suspicious-Volume-Usage-on-Workers/1-m-1ouUbMQEVv9gPJ3wggug.png" class="kg-image" alt loading="lazy"></figure>
+<figure class="kg-card kg-image-card"><img src="assets/images/downloaded_images/Suspicious-Volume-Usage-on-Workers/1-m-1ouUbMQEVv9gPJ3wggug.png" class="kg-image" alt loading="lazy"></figure>
 - At t=0 the pipeline is configured and idling; monitoring the external system for a new version.
 - At t=1 a new version of the “Metrics” product is released on PivNet, picked up by Concourse, downloaded and begins to flow through your pipeline
 - At t=2 the Upload to OM (OM == Ops Manager) job kicks off and does its thing

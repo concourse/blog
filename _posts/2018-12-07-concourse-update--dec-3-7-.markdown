@@ -6,7 +6,7 @@ tags:
 - product-update
 ---
 
-<figure class="kg-card kg-image-card kg-card-hascaption"><img src=" __GHOST_URL__ /content/images/downloaded_images/Concourse-Update--Dec-3-7-/1-9QGCZafW4o8rGIVxN4QvYA.jpeg" class="kg-image" alt loading="lazy"><figcaption>Stephen A. Wolfe</figcaption></figure>
+<figure class="kg-card kg-image-card kg-card-hascaption"><img src="assets/images/downloaded_images/Concourse-Update--Dec-3-7-/1-9QGCZafW4o8rGIVxN4QvYA.jpeg" class="kg-image" alt loading="lazy"><figcaption>Stephen A. Wolfe</figcaption></figure>
 
 We’re nearing the end on some UX refactoring work and finished off the issue regarding container scheduling. Between those improvements and the global resource caching, we’re hoping to see a lot of efficiency improvements in 5.0
 

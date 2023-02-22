@@ -6,13 +6,13 @@ tags:
 - product-update
 ---
 
-<figure class="kg-card kg-image-card kg-card-hascaption"><img src=" __GHOST_URL__ /content/images/downloaded_images/Concourse-Update--Jul-23-27-/1-tfhJwBRSLe9wrc2-a7MwpQ.png" class="kg-image" alt loading="lazy"><figcaption>Concourse 4.0.0 Dashboard</figcaption></figure>
+<figure class="kg-card kg-image-card kg-card-hascaption"><img src="assets/images/downloaded_images/Concourse-Update--Jul-23-27-/1-tfhJwBRSLe9wrc2-a7MwpQ.png" class="kg-image" alt loading="lazy"><figcaption>Concourse 4.0.0 Dashboard</figcaption></figure>
 
 I’m happy to announce that we released Concourse 4.0.0 this week! This was a HUGE release with over 28 new features and fixes. I’d encourage you to read through the full list of changes on our [Downloads page.](https://concourse-ci.org/download.html#v400)
 
 Why did this release warrant a bump in the major version? Well, if you’ve been following along [closely](https://medium.com/concourse-ci/oh-auth-f4fe68438171) you’ll know that we had just finished our new auth work in 4.0.0. Users are now central to the authentication flows, **not** teams. Practically speaking, the user-centric auth flow means that you won’t need to re-login to see pipelines in other teams that you already have access to! Underneath the hood though, _“We’re leveraging CoreOS’s Dex project for all the moving parts, which already supports a ton of providers (Dex calls them “connectors”). The only delta required for Concourse to support a Dex connector is a tiny bit of glue code in our new_ [_Skymarshal_](https://github.com/concourse/skymarshal) _component to provide higher-level flags for our CLI.”_ We spent a lot of time near the end of this cycle trying to make these changes [backwards compatible](https://github.com/concourse/concourse/issues/2218), but ultimately decided that the changes were significant enough to warrant a bump in the major version. PLEASE _PLEASE_ _ **PLEASE** _ refer to our release notes for all the breaking changes before executing your upgrade!
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/downloaded_images/Concourse-Update--Jul-23-27-/1-A7zDAYYisJzHjZldrxqneg.gif" class="kg-image" alt loading="lazy"></figure>
+<figure class="kg-card kg-image-card"><img src="assets/images/downloaded_images/Concourse-Update--Jul-23-27-/1-A7zDAYYisJzHjZldrxqneg.gif" class="kg-image" alt loading="lazy"></figure>
 
 The second big change you’ll notice in 4.0.0 is that the home (/) route now takes you to the dashboard. We’ve also propagated the new colour scheme to the rest of the app and tightened up the fonts throughout the app.
 

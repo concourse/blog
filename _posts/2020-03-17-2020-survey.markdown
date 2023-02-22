@@ -7,7 +7,7 @@ tags:
 - roadmap
 ---
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2020/03/whyconcourse2.png" class="kg-image" alt loading="lazy"></figure>
+<figure class="kg-card kg-image-card"><img src="assets/images/2020/03/whyconcourse2.png" class="kg-image" alt loading="lazy"></figure>
 ## Help shape the future of Concourse
 
 Since Concourse CI was created, thousands of users worldwide have helped the project by opening issues, committing code, and providing feedback to the team that develops the product. This community involvement is priceless - thank you, Concourse community! 👏

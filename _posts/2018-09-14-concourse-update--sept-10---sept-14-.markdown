@@ -6,7 +6,7 @@ tags:
 - product-update
 ---
 
-<figure class="kg-card kg-image-card kg-card-hascaption"><img src=" __GHOST_URL__ /content/images/downloaded_images/Concourse-Update--Sept-10---Sept-14-/1-oJ9JKLsPYwX6YtLNEibR0w.png" class="kg-image" alt loading="lazy"><figcaption>Let us know if you’d be interested in Concourse swag</figcaption></figure>
+<figure class="kg-card kg-image-card kg-card-hascaption"><img src="assets/images/downloaded_images/Concourse-Update--Sept-10---Sept-14-/1-oJ9JKLsPYwX6YtLNEibR0w.png" class="kg-image" alt loading="lazy"><figcaption>Let us know if you’d be interested in Concourse swag</figcaption></figure>
 
 Following up from a discussion on our forums [Scott Foerster](https://medium.com/u/86d0fa097bb9) has been looking at different options for selling Concourse swag online. Do you want Concourse leggings? or maybe a limited edition @vito pls pillow! Let us know in the thread [Concourse merchandising](https://discuss.concourse-ci.org/t/concourse-merchandising-t-shirts-and-similar/599/4).
 

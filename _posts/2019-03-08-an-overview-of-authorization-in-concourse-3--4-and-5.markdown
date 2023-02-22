@@ -6,7 +6,7 @@ tags:
 - product-update
 ---
 
-<figure class="kg-card kg-image-card kg-card-hascaption"><img src=" __GHOST_URL__ /content/images/downloaded_images/An-Overview-of-Authorization-in-Concourse-3--4-and-5/1-sh1rcJO5eSRDQrmxIF8qTA.jpeg" class="kg-image" alt loading="lazy"><figcaption>NASA HQ Photo</figcaption></figure>
+<figure class="kg-card kg-image-card kg-card-hascaption"><img src="assets/images/downloaded_images/An-Overview-of-Authorization-in-Concourse-3--4-and-5/1-sh1rcJO5eSRDQrmxIF8qTA.jpeg" class="kg-image" alt loading="lazy"><figcaption>NASA HQ Photo</figcaption></figure>
 
 With the release of [Concourse 5.0.0](https://concourse-ci.org/download.html#v500) this week I thought it would be a good time to review the evolving implementation of authorization in Concourse. I’ll also be covering some helpful debugging information for you to consider when configuring authorization in your own Concourse instance.
 
@@ -18,7 +18,7 @@ The revised [Concourse Auth & Teams docs](https://concourse-ci.org/auth.html)is 
 
 _This section will only be useful to operators who are migrating into 4.x and beyond. Feel free to skip ahead if this does not apply to you._
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/downloaded_images/An-Overview-of-Authorization-in-Concourse-3--4-and-5/1-cNIh0ygLLcNnPbGEDOhcig.png" class="kg-image" alt loading="lazy"></figure>
+<figure class="kg-card kg-image-card"><img src="assets/images/downloaded_images/An-Overview-of-Authorization-in-Concourse-3--4-and-5/1-cNIh0ygLLcNnPbGEDOhcig.png" class="kg-image" alt loading="lazy"></figure>
 
 Every Concourse instance starts with a main team that must be configured against an Authentication Provider on start-up. The main team is an admin team, meaning it can create teams, update other teams and view system-scoped details on workers, containers, etc.
 
@@ -76,7 +76,7 @@ Once you have configured the providers you can freely add users/teams/orgs/group
 As with most fly commands, you can actually attach multiple users/teams across providers to a team. For example: if you have GitHub and OAuth providers set up, a team owner could attach two teams (one from GitHub, one from OAuth) to the team.
 
 ### Examples
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/downloaded_images/An-Overview-of-Authorization-in-Concourse-3--4-and-5/1-c4yd3A2DIIrRYF8uqh9_fw.png" class="kg-image" alt loading="lazy"></figure>
+<figure class="kg-card kg-image-card"><img src="assets/images/downloaded_images/An-Overview-of-Authorization-in-Concourse-3--4-and-5/1-c4yd3A2DIIrRYF8uqh9_fw.png" class="kg-image" alt loading="lazy"></figure>
 
 In this example we have a simple Concourse installation with two identity providers: GitHub and a single Local User.
 

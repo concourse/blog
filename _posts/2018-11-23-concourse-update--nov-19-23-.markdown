@@ -6,7 +6,7 @@ tags:
 - product-update
 ---
 
-<figure class="kg-card kg-image-card kg-card-hascaption"><img src=" __GHOST_URL__ /content/images/downloaded_images/Concourse-Update--Nov-19-23-/1-fBOnArsQyRfYMLYGB4Uk_w.jpeg" class="kg-image" alt loading="lazy"><figcaption>)</figcaption></figure>
+<figure class="kg-card kg-image-card kg-card-hascaption"><img src="assets/images/downloaded_images/Concourse-Update--Nov-19-23-/1-fBOnArsQyRfYMLYGB4Uk_w.jpeg" class="kg-image" alt loading="lazy"><figcaption>)</figcaption></figure>
 
 It was a relatively light week this week due to some vacations. I did, however, get a chance to do some acceptance work on our upcoming feature for role-based access control in Concourse. You can read more about how that’ll work in our [feature preview post](https://medium.com/concourse-ci/concourse-rbac-preview-8e07616ddc47).
 

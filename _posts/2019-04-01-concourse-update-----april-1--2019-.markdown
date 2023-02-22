@@ -6,7 +6,7 @@ tags:
 - product-update
 ---
 
-<figure class="kg-card kg-image-card kg-card-hascaption"><img src=" __GHOST_URL__ /content/images/downloaded_images/Concourse-Update-----April-1--2019-/1-Z49uzJr_wqYlpCGLBpnoXQ.jpeg" class="kg-image" alt loading="lazy"><figcaption>Some airport somewhere…waiting</figcaption></figure>
+<figure class="kg-card kg-image-card kg-card-hascaption"><img src="assets/images/downloaded_images/Concourse-Update-----April-1--2019-/1-Z49uzJr_wqYlpCGLBpnoXQ.jpeg" class="kg-image" alt loading="lazy"><figcaption>Some airport somewhere…waiting</figcaption></figure>
 
 Phew, it’s been a while since I last wrote an update. For some background behind why I slowed down, hop on over to this thread on our forms: [“What would you like to see on our blog”](https://discuss.concourse-ci.org/t/what-kind-of-topics-would-you-like-to-see-on-our-blog/1222/8).
 
@@ -46,7 +46,7 @@ There’s also been some interesting blog posts about Concourse from around the 
 - We got a mention on [PorscheDev’s Technology Radar vol 2](https://medium.com/porschedev/technology-radar-vol-2-4833fb31e2fd) (I think they like us&nbsp;:D)
 
 ## Concourse Swag
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/downloaded_images/Concourse-Update-----April-1--2019-/1-7Ox9ZUESMtTgP-wCg5gaww.png" class="kg-image" alt loading="lazy"></figure>
+<figure class="kg-card kg-image-card"><img src="assets/images/downloaded_images/Concourse-Update-----April-1--2019-/1-7Ox9ZUESMtTgP-wCg5gaww.png" class="kg-image" alt loading="lazy"></figure>
 
 We have swag! With the help of the team at Pivotal we’ve listed our first Concourse-branded sweater under the [official Pivotal apparel store](https://store.pivotal.io/collections/all-products/products/pivotal-unisex-crewneck-sweatshirt). A few notes:
 
@@ -76,7 +76,7 @@ On the topic of k8s runtime situation, please take a second to review [Topher Bu
 
 Finally, I wanted to give shout outs to our growing community of Concourse fans and followers. In early 2019 the Concourse team made two changes to our contributor workflow: we switched over to a looser Contributors License Agreement (CLA) and the core team moved towards a PR-based workflow. Since then we’ve seen a lot more engagement on the work that we’ve doing, and we’ve also started to see a lot of new PRs coming in!
 
-<figure class="kg-card kg-image-card kg-card-hascaption"><img src=" __GHOST_URL__ /content/images/downloaded_images/Concourse-Update-----April-1--2019-/1-mPK8DgHmIv36A0Z6pNebjg.png" class="kg-image" alt loading="lazy"><figcaption># of PRs opened over time against concourse/concourse and other key resources</figcaption></figure>
+<figure class="kg-card kg-image-card kg-card-hascaption"><img src="assets/images/downloaded_images/Concourse-Update-----April-1--2019-/1-mPK8DgHmIv36A0Z6pNebjg.png" class="kg-image" alt loading="lazy"><figcaption># of PRs opened over time against concourse/concourse and other key resources</figcaption></figure>
 
 In 2018, we saw 263 PRs opened against concourse/concourse and its core resources. As of today we already have more than 160 PRs opened by non-Pivots! Some notable PRs that I wanted to
 

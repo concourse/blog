@@ -6,7 +6,7 @@ tags:
 - product-update
 ---
 
-<figure class="kg-card kg-image-card kg-card-hascaption"><img src=" __GHOST_URL__ /content/images/downloaded_images/Concourse-Update--August-20-24-/0-9tKyl-ikt-ttbS_z.jpg" class="kg-image" alt loading="lazy"><figcaption>Logs and resources</figcaption></figure>
+<figure class="kg-card kg-image-card kg-card-hascaption"><img src="assets/images/downloaded_images/Concourse-Update--August-20-24-/0-9tKyl-ikt-ttbS_z.jpg" class="kg-image" alt loading="lazy"><figcaption>Logs and resources</figcaption></figure>
 ### Kubernetes
 
 As we continue our sporadic work on Kubernetes and its Helm chart, we’re also starting to expand our thinking to cover the runtime aspects of Concourse + Kubernetes. We’ve already prioritized the need to have Kubernetes as a supporting backend in addition to Garden, but what about the spiffy new developments in the Kubernetes world? We’re hearing a lot about [knative](https://github.com/knative/) and knative services like [build](https://github.com/knative/build) and [eventing](https://github.com/knative/eventing). Are there any kubernetes users who’d like to weigh in on the topic? Let us know on our[forums!](https://discuss.concourse-ci.org/t/kubernetes-knative/573)

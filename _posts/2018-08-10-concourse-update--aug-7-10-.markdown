@@ -6,7 +6,7 @@ tags:
 - roadmap
 ---
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/downloaded_images/Concourse-Update--Aug-7-10-/1-QBeLayNVacbJGgBW-BhGSw.jpeg" class="kg-image" alt loading="lazy"></figure>
+<figure class="kg-card kg-image-card"><img src="assets/images/downloaded_images/Concourse-Update--Aug-7-10-/1-QBeLayNVacbJGgBW-BhGSw.jpeg" class="kg-image" alt loading="lazy"></figure>
 
 As I mentioned last week, this was a short week for us in Canada due to the [Civic Holiday](https://en.wikipedia.org/wiki/Civic_Holiday#Ontario). We did, however, manage to work on some pretty cool stuff!
 

@@ -8,7 +8,7 @@ tags:
 
 Howdy, and welcome to our first RFC round-up! 🤠
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2020/05/image.png" class="kg-image" alt loading="lazy"></figure>
+<figure class="kg-card kg-image-card"><img src="assets/images/2020/05/image.png" class="kg-image" alt loading="lazy"></figure>
 
 For those unaware, [Concourse RFCs](https://github.com/concourse/rfcs#concourse-rfcs) are a process for proposing and collaborating on improvements to core Concourse functionality, including pipeline behavior, new step types, new operator capabilities, etc.
 

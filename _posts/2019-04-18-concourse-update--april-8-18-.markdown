@@ -6,11 +6,11 @@ tags:
 - product-update
 ---
 
-<figure class="kg-card kg-image-card kg-card-hascaption"><img src=" __GHOST_URL__ /content/images/downloaded_images/Concourse-Update--April-8-18-/1-gTTAFBV8KHzEL0CV-I-_kA.jpeg" class="kg-image" alt loading="lazy"><figcaption>Roman Alekseenkov from Aptomi giving a talk on Concourse at the Bay Area User Group</figcaption></figure>
+<figure class="kg-card kg-image-card kg-card-hascaption"><img src="assets/images/downloaded_images/Concourse-Update--April-8-18-/1-gTTAFBV8KHzEL0CV-I-_kA.jpeg" class="kg-image" alt loading="lazy"><figcaption>Roman Alekseenkov from Aptomi giving a talk on Concourse at the Bay Area User Group</figcaption></figure>
 
 Sorry for missing the update last week. I was travelling out to the Bay area to attend the ConcourseCI Bay Area User Group. For those who missed it, you can find a recording of the event [here](https://www.youtube.com/watch?v=1RRZHPlTkXs). On to the update.
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/downloaded_images/Concourse-Update--April-8-18-/1-QqwW-_RArz5a_sprZC7PZw.png" class="kg-image" alt loading="lazy"></figure>
+<figure class="kg-card kg-image-card"><img src="assets/images/downloaded_images/Concourse-Update--April-8-18-/1-QqwW-_RArz5a_sprZC7PZw.png" class="kg-image" alt loading="lazy"></figure>
 
 In case you missed it, Concourse 5.1.0 is out! It’s got icons on resources, better garbage collection, on\_error on pipelines, and much more! As usual, you can read the full list of new features [here](https://concourse-ci.org/download.html#v510).
 

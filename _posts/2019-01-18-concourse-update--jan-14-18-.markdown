@@ -6,7 +6,7 @@ tags:
 - product-update
 ---
 
-<figure class="kg-card kg-image-card kg-card-hascaption"><img src=" __GHOST_URL__ /content/images/downloaded_images/Concourse-Update--Jan-14-18-/1-6MKC6FrHvi5u_9yZCklyeA.png" class="kg-image" alt loading="lazy"><figcaption> for context…or don’t 🤷</figcaption></figure>
+<figure class="kg-card kg-image-card kg-card-hascaption"><img src="assets/images/downloaded_images/Concourse-Update--Jan-14-18-/1-6MKC6FrHvi5u_9yZCklyeA.png" class="kg-image" alt loading="lazy"><figcaption> for context…or don’t 🤷</figcaption></figure>
 
 Some updates worth bringing up this week. As I had mentioned last week we began to do a re-organization of projects and issues in our concourse/concourse repo; you can read more about it on our [wiki page here](https://github.com/concourse/concourse/wiki/How-Issues-are-Managed). With that said, you can find the issues and PRs that are slated for Concourse 5.0.0’s release in our [5.0.0 Milestones](https://github.com/concourse/concourse/milestone/33). If you’d like to help us with documentation, we’ve started a new branch in the docs repo under [v5.0](https://github.com/concourse/docs/tree/v5.0).
 

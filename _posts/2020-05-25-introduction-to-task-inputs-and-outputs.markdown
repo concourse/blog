@@ -69,18 +69,18 @@ This pipeline has two tasks. The first task outputs a file with the date. The se
 
 Here's a visual graphic of what happens when the above job is executed.
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2020/05/example-one-10.gif" class="kg-image" alt loading="lazy"></figure>
+<figure class="kg-card kg-image-card"><img src="assets/images/2020/05/example-one-10.gif" class="kg-image" alt loading="lazy"></figure>
 ## Example Two - Two tasks with the same output, who wins?
 
 This example is to satisfy the curiosity cat inside all of us! Never do this in real life because you're definitely going to hurt yourself!
 
 There are two jobs in this pipeline. The first job has two [step](https://concourse-ci.org/jobs.html#steps)s; both steps will produce an artifact named `the-output` in parallel. If you run the `writing-to-the-same-output-in-parallel` job multiple times you'll see the file in `the-output` folder changes depending on which of the parallel tasks finished last. Here's a visualization of the first job.
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2020/05/example-two-parallel.gif" class="kg-image" alt loading="lazy"></figure>
+<figure class="kg-card kg-image-card"><img src="assets/images/2020/05/example-two-parallel.gif" class="kg-image" alt loading="lazy"></figure>
 
 The second job is a serial version of the first job. In this job the second task always wins because it's the last task that outputs `the-output`, so only `file2` will be in `the-output` directory in the last [step](https://concourse-ci.org/jobs.html#steps) in the [job plan](https://concourse-ci.org/jobs.html#schema.job.plan).
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2020/05/example-two-serial.gif" class="kg-image" alt loading="lazy"></figure>
+<figure class="kg-card kg-image-card"><img src="assets/images/2020/05/example-two-serial.gif" class="kg-image" alt loading="lazy"></figure>
 
 This pipeline illustrates that you could accidentally overwrite the output from a previous [step](https://concourse-ci.org/jobs.html#steps) if you're not careful with the names of your outputs.
 
@@ -205,7 +205,7 @@ The fourth task tries to use the artifact named `the-output` as its input. This 
 
 Here's a visualization of the job.
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2020/05/example-three-1.gif" class="kg-image" alt loading="lazy"></figure>
+<figure class="kg-card kg-image-card"><img src="assets/images/2020/05/example-three-1.gif" class="kg-image" alt loading="lazy"></figure>
 
 Here's the pipeline YAML for you to run on your local Concourse.
 
@@ -357,7 +357,7 @@ This means you can pass something between a bunch of tasks and have each task ad
 
 Here's a visualization of the job.
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2020/05/example-four.gif" class="kg-image" alt loading="lazy"></figure>
+<figure class="kg-card kg-image-card"><img src="assets/images/2020/05/example-four.gif" class="kg-image" alt loading="lazy"></figure>
 ## Example Five - Multiple Outputs
 
 What happens if you have a task that has multiple outputs and a second task that only lists one of the outputs? Does the second task get the extra outputs from the first task?
@@ -426,7 +426,7 @@ The answer is no. A task will only get the artifacts that match the name of the 
 
 Here's a visualization of the above job.
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2020/05/example-five.gif" class="kg-image" alt loading="lazy"></figure>
+<figure class="kg-card kg-image-card"><img src="assets/images/2020/05/example-five.gif" class="kg-image" alt loading="lazy"></figure>
 ## Example Six - Get Steps
 
 The majority of Concourse pipelines have at least one resource, which means they have at least one [get step](https://concourse-ci.org/jobs.html#get-step). Using a get step in a job makes an artifact with the name of the get step available for later steps in the [job plan](https://concourse-ci.org/jobs.html#schema.job.plan) to consume as inputs.
@@ -461,7 +461,7 @@ The majority of Concourse pipelines have at least one resource, which means they
 
 Here's a visualization for the above job.
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2020/05/example-six.gif" class="kg-image" alt loading="lazy"></figure>
+<figure class="kg-card kg-image-card"><img src="assets/images/2020/05/example-six.gif" class="kg-image" alt loading="lazy"></figure>
 
 I hope you found these example helpful with figuring out how inputs and outputs work within a single Concourse job.
 

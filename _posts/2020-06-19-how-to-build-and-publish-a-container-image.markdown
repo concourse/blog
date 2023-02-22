@@ -272,7 +272,7 @@ You can set the pipeline with the following `fly` command, updating the variable
         --var registry-username=<user> \
         --var registry-password=<password>
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2020/06/build-and-publish-pipeline-3.png" class="kg-image" alt="build-and-push-pipeline" loading="lazy" width="2000" height="282" srcset=" __GHOST_URL__ /content/images/size/w600/2020/06/build-and-publish-pipeline-3.png 600w, __GHOST_URL__ /content/images/size/w1000/2020/06/build-and-publish-pipeline-3.png 1000w, __GHOST_URL__ /content/images/size/w1600/2020/06/build-and-publish-pipeline-3.png 1600w, __GHOST_URL__ /content/images/size/w2400/2020/06/build-and-publish-pipeline-3.png 2400w" sizes="(min-width: 720px) 720px"></figure>
+<figure class="kg-card kg-image-card"><img src="assets/images/2020/06/build-and-publish-pipeline-3.png" class="kg-image" alt="build-and-push-pipeline" loading="lazy" width="2000" height="282" srcset="assets/images/size/w600/2020/06/build-and-publish-pipeline-3.png 600w,assets/images/size/w1000/2020/06/build-and-publish-pipeline-3.png 1000w,assets/images/size/w1600/2020/06/build-and-publish-pipeline-3.png 1600w,assets/images/size/w2400/2020/06/build-and-publish-pipeline-3.png 2400w" sizes="(min-width: 720px) 720px"></figure>
 ## Further Readings
 
 Understanding what the _build context_ is is important when building container images. You can read [Dockerfile Best Practices](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#understand-build-context) for more details about _build contexts_.
