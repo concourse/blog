@@ -5,7 +5,7 @@ This repo contains the blog posts for blog.concourse-ci.org
 ## Running the blog locally
 
 ```
-hug server
+hugo server
 ```
 
 ## Adding a New Blog Post
@@ -13,14 +13,12 @@ hug server
 ```
 touch content/posts/YYYY-MM-DD-my-post.md
 ```
+
 With the following content
+
 ```
-+++
-title = "{{ replace .TranslationBaseName "-" " " | title }}"
-date = "{{ .Date }}"
-author = ""
-tags = ["", ""]
-keywords = ["", ""]
-description = ""
-+++
+---
+title:
+date: '2025-01-01 1:00:00'
+---
 ```
