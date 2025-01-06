@@ -9,7 +9,7 @@ This post isn't about me though, it's about the project and what's happening wit
 
 # Concourse is 10 Years Old!
 
-The [first commit](https://github.com/concourse/concourse/commit/e3cb2182bb1523718f65714d0c20e176572726a9#diff-c693279643b8cd5d248172d9c22cb7cf4ed163a3c98c8a3f69c2717edd3eacb7) for Concourse was made April 13th, 2014. That's over 10 years ago! Not sure how all that time flew by, but I guess it means Concourse is "legacy software", especially on the timescale of the internet. Concourse is well on its way to getting it's pilot license, only four more years to go (in [Canada](https://tc.canada.ca/en/aviation/licensing-pilots-personnel/flight-crew-licences-permits-ratings/general-information-pilot-licences-permits) at least).
+The [first commit](https://github.com/concourse/concourse/commit/e3cb2182bb1523718f65714d0c20e176572726a9#diff-c693279643b8cd5d248172d9c22cb7cf4ed163a3c98c8a3f69c2717edd3eacb7) for Concourse was made April 13th, 2014. That's over 10 years ago! Not sure how all that time flew by, but I guess it means Concourse is "legacy software", especially on the timescale of the internet. Concourse is well on its way to getting its pilot license, only four more years to go (in [Canada](https://tc.canada.ca/en/aviation/licensing-pilots-personnel/flight-crew-licences-permits-ratings/general-information-pilot-licences-permits) at least).
 
 Concourse has changed so much over the years. Overall I would say Concourse's development has been about slow and thoughtful improvements. I think it's paid off well so far for the project and will continue to do so in the future. There are a lot of exciting things we can still add onto Concourse, and I think there are a lot of existing things we can continue to refine and improve.
 
