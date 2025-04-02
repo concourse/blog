@@ -8,6 +8,8 @@ tags:
 
 In this blog post we're going to cover how to use git and Concourse to automatically set, update, and archive your pipelines using the `set_pipeline` step. No longer will you need to use `fly set-pipeline` to update any of your pipelines!
 
+<!--more-->
+
 For consistency we will refer to the pipeline that contains all the `set_pipeline` steps as the **parent pipeline**. The pipelines created by the `set_pipeline` steps will be called **child pipelines**.
 
 _Scroll to the bottom to see the final pipeline template or [click here](https://github.com/concourse/examples/blob/master/pipelines/set-pipelines.yml). What follows is a detailed explanation of how the parent pipeline works along with git and automatic archiving._

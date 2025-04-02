@@ -8,6 +8,8 @@ tags:
 
 Understanding how task inputs and outputs work in Concourse can be a little confusing initially. This post will walk you through a few example pipelines to show you how inputs and outputs work within a single Concourse job. By the end you should understand how inputs and outputs work within the context of a single job.
 
+<!--more-->
+
 Let's define some jargon first.
 
 - **step** : A [step](https://concourse-ci.org/jobs.html#steps) is a container running code within the context of a Concourse job. A [step](https://concourse-ci.org/jobs.html#steps) may have inputs and/or outputs, or neither.

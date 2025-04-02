@@ -8,6 +8,8 @@ tags:
 
 Happy Friday! This one's brief.
 
+<!--more-->
+
 ## Merged RFCs
 
 - [RFC #37: prototypes](https://github.com/concourse/rfcs/pull/37) has landed! ...but it probably could have use more detail regarding the `run` step, which is the only immediately actionable part of it. 🤔 I'll draft another RFC for that; #37 mainly covered the protocol.

@@ -8,6 +8,8 @@ tags:
 
 Howdy, and welcome to our first RFC round-up! 🤠
 
+<!--more-->
+
 {{< image src="/images/2020/05/image.png" width="40%" >}}
 
 For those unaware, [Concourse RFCs](https://github.com/concourse/rfcs#concourse-rfcs) are a process for proposing and collaborating on improvements to core Concourse functionality, including pipeline behavior, new step types, new operator capabilities, etc.

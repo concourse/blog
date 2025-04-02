@@ -7,6 +7,8 @@ tags:
 
 With the four(!) RFCs from the last round-up now merged, it's time to move on to the next RFC milestone: Prototypes!
 
+<!--more-->
+
 ## Merged RFCs 🎉
 
 - [RFC #31: `set_pipeline` step](https://github.com/concourse/rfcs/pull/31)

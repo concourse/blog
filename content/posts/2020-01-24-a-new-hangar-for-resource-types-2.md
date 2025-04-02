@@ -10,6 +10,8 @@ _Photo:_ [_National Parks Service_](https://www.nps.gov/subjects/aviation/images
 
 The [idea to build a dedicated resource types catalog](https://github.com/concourse/concourse/issues/191) has been long-discussed. We’d like to announce that the idea has come to fruition: the new Concourse [resource types catalog](https://resource-types.concourse-ci.org/) is wheels up!
 
+<!--more-->
+
 The catalog lists Concourse [resource types](https://concourse-ci.org/resource-types.html) that have recently been submitted to the [resource types GitHub repo](https://github.com/concourse/resource-types). Originally, resource types were listed on a [GitHub wiki](https://github.com/concourse/concourse/wiki/Resource-Types) page. While the wiki page listed resource types, it didn’t provide much information about each resource. The resource types catalog will provide more information about each resource and enhanced search, both of which will make it easier to compare and find resource types.
 
 The addition of the resource types catalog means that the original resource types wiki page will be deprecated. If you have a resource listed on the wiki page, please migrate it over to the [GitHub repo](https://github.com/concourse/resource-types).

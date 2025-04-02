@@ -8,6 +8,8 @@ tags:
 
 In this blog post we are going to show how to build and publish container images using the [oci-build task](https://github.com/vito/oci-build-task) and [registry-image resource](https://github.com/concourse/registry-image-resource). This post assumes you understand how to build container images with `Dockerfile`'s and publish to [Docker Hub](https://hub.docker.com/) or another image registry using the [`docker` cli](https://docs.docker.com/engine/reference/commandline/cli/).
 
+<!--more-->
+
 _If you just want to see the pipeline, scroll to the bottom or [click here](https://github.com/concourse/examples/blob/master/pipelines/build-and-push-simple-image.yml). What follows is a detailed explanation of what each part of the pipeline does._
 
 First we need a Dockerfile. You can store this in your own repo or reference the [github.com/concourse/examples](https://github.com/concourse/examples) repo. The rest of this post assumes you use the [examples](https://github.com/concourse/examples) repo. All files in this blog post can be found in the examples repo.

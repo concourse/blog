@@ -7,6 +7,8 @@ tags:
 
 First off: sorry, I immediately failed to keep my target pace for these. 😓 I got wrapped up in a deadline, and since I alternate weeks between engineering and community duties like this post, when I miss a week for RFC updates the 2-week interval can quickly turn into 4 or 5.
 
+<!--more-->
+
 Owing to the missed round-up, and in hopes of burning through the backlog more quickly so that interested contributors may volunteer for merged RFCs, I'm going to expand the scope of this post to include more RFCs than the last one - primarily by proposing that we merge ones that are nearly certain for the [v10 roadmap](/posts/2019-07-17-core-roadmap-towards-v10/).
 
 ## Merged RFCs

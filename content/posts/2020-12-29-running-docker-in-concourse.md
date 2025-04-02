@@ -8,6 +8,8 @@ tags:
 
 So you want to run Docker in Concourse? Well this is the guide for you!
 
+<!--more-->
+
 Let' clarify what it is we want to do. **We want to be able to run `docker-compose` inside a task in Concourse to bring up our application along side some other services (i.e. Redis, Postgres, MySQL, etc.).**
 
 Thankfully this challenge has been solved by the community! There are a few "Docker-in-Docker" images designed to run in Concourse that are maintained by the community. Here's a short list made from a cursory search, in no particular order:

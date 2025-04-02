@@ -5,6 +5,8 @@ date: '2025-01-06 1:00:00'
 
 Hey Concourse community, it’s been a while since a blog post was made. My name is Taylor Silva and I’m the current lead maintainer of the project. I have fallen into this role for historical (was on the Concourse team at Pivotal starting in 2019) and personal reasons (still using Concourse at my day job). I really like using Concourse and I haven't found another tool that works as well as Concourse does, that's why I've stuck around.
 
+<!--more-->
+
 This post isn't about me though, it's about the project and what's happening with it. I'm going to talk about the last year of the project to recap where the project is at. Then I'll discuss where I see the project going over the next year.
 
 # Concourse is 10 Years Old!

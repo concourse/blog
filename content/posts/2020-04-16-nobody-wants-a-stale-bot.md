@@ -6,6 +6,8 @@ date: '2020-04-16 19:27:07'
 
 Hasta la vista, stale bot.
 
+<!--more-->
+
 {{< youtube src="https://www.youtube.com/embed/0Kug8mJ8WiM?start=110&amp;feature=oembed" >}}
 
 ## tl;dr:

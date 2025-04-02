@@ -5,6 +5,8 @@ date: '2020-03-25 14:03:51'
 
 In March 2020, countless companies made a shift to have their employees work from home. For remote staff getting work done can be challenging enough, but staying connected to your team and company culture can be even more challenging. On the Concourse team, we’re working hard to keep our product development running smoothly with some additions to our tech stack and day to day workflow.
 
+<!--more-->
+
 ## Concourse team composition
 
 At VMware (formerly Pivotal Software), there are fourteen engineers and five product folks working on the[Concourse CI project](https://github.com/concourse/concourse/) full time. We all care deeply about the software we're building, and put a great deal of effort and consideration into _how we build software_ in order to be as effective as possible.
