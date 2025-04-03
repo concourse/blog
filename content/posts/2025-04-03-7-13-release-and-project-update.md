@@ -1,6 +1,6 @@
 ---
 title: v7.13.0 Release and Project Update
-date: '2025-04-02 1:00:00'
+date: '2025-04-03 1:00:00'
 ---
 
 First minor release of 2025! This release is FULL of bug fixes, performance improvements, and even a few new features. I'll start with a quick project update and then dive into the exciting things you can find in this release.
