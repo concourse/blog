@@ -57,9 +57,9 @@ Okay, of course this problem is not fully solved. How am I going to afford to li
 
 Some folks in the community reached out to me offering to try starting a company centered around Concourse. I of course said yes! Right now we are a small, dedicated team with a combined 10+ years of experience running Concourse clusters both small and large. The goal of this commercial venture is to advance and sustain then open-source Concourse project. We think Concourse is still the best CI/CD tool out there and that we can make a compelling commercial offering around it.
 
-If your company may be interested in what a "Concourse" company has to offer then please share your email with us here: [https://forms.gle/Nu8mZuoJJmHxvXYdA](https://forms.gle/Nu8mZuoJJmHxvXYdA)
+~~If your company may be interested in what a "Concourse" company has to offer then please share your email with us here: LINK REMOVED~~
 
-**We will not use your email for any marketing stuff. We will only ever contact you once, likely before April 2025.**
+> **May 2025 Update** - If you're looking for someone to run a managed Concourse (SaaS) for you please reach out to the folks at [CentralCI](https://centralci.com/). If you're looking for commercial support for your on-premise Concourse please reach out to [Pixel Air](https://pixelair.io/).
 
 One last thing I want to mention about this company we're building, because it's important to us, is that we are not taking any kind of VC funding. We are not creating a company that will be focused on "growth at all costs". Our focus will be on developing the product (Concourse) and using the product to solve CI/CD problems for customers, and finally catching up to the rest of the CI/CD world with a managed/SaaS version of Concourse. We want to build a sustainable business. We are not building a business to eventually sell; we are building a business that will advance and sustain Concourse and the entire community surrounding it.
 
