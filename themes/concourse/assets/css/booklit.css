@@ -283,6 +283,7 @@ h3 {
 .page-content ol,
 .page-content dl {
   padding-left: 30px;
+  font-size: 18px;
 }
 
 .page-content code {
